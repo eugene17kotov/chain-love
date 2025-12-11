@@ -1,17 +1,199 @@
 {
     "rpc": [
         {
+            "slug": "1rpc-mainnet-public-recent-state",
+            "provider": "1rpc",
+            "actionButtons": [
+                "[Website](https://www.1rpc.io/ecosystem/aptos)",
+                "[Docs](https://docs.1rpc.io/using-the-web3-api/networks)"
+            ],
+            "plan": "Public",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "10K protected reqs/day"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time monitoring",
+                "Usage analytics",
+                "Advanced analytics",
+                "Customizable alerting and reporting",
+                "Transaction sanitizers"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "1rpc-mainnet-free-recent-state",
+            "provider": "1rpc",
+            "actionButtons": [
+                "[Website](https://www.1rpc.io/ecosystem/aptos)",
+                "[Docs](https://docs.1rpc.io/using-the-web3-api/networks)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "20K protected reqs/day"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time monitoring",
+                "Usage analytics",
+                "Advanced analytics",
+                "Customizable alerting and reporting",
+                "Transaction sanitizers"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "1rpc-mainnet-pay-as-you-go-recent-state",
+            "provider": "1rpc",
+            "actionButtons": [
+                "[Buy](https://www.1rpc.io/#pricing)",
+                "[Docs](https://docs.1rpc.io/using-the-web3-api/networks)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$9.90/$29.90/mo, $8.33/$24.99/yearly",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "40K/100K protected reqs/day"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time monitoring",
+                "Usage analytics",
+                "Advanced analytics",
+                "Customizable alerting and reporting",
+                "Transaction sanitizers"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "1rpc-mainnet-enterprise-recent-state",
+            "provider": "1rpc",
+            "actionButtons": [
+                "[Contact](https://discord.com/invite/automata)",
+                "[Docs](https://docs.1rpc.io/using-the-web3-api/networks)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time monitoring",
+                "Usage analytics",
+                "Advanced analytics",
+                "Customizable alerting and reporting",
+                "Transaction sanitizers"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
             "slug": "alchemy-mainnet-free-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Website](https://www.alchemy.com/rpc/aptos)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -39,28 +221,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.alchemy.com/rpc/aptos)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-mainnet-pay-as-you-go-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Buy](https://www.alchemy.com/pricing)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$5/$45/$215/$415/$815/$2K",
             "queryPrice": "$0.40/$0.45/1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -91,28 +273,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.alchemy.com/pricing)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-mainnet-enterprise-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Contact](https://www.alchemy.com/contact-sales)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -142,28 +324,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://www.alchemy.com/contact-sales)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-free-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Website](https://www.alchemy.com/rpc/aptos-testnet)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -191,28 +373,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.alchemy.com/rpc/aptos-testnet)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-pay-as-you-go-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Buy](https://www.alchemy.com/pricing)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$5/$45/$215/$415/$815/$2K",
             "queryPrice": "$0.40/$0.45/1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -243,28 +425,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.alchemy.com/pricing)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-enterprise-recent-state",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Contact](https://www.alchemy.com/contact-sales)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -294,28 +476,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://www.alchemy.com/contact-sales)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-mainnet-free-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Website](https://www.alchemy.com/rpc/aptos)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Free",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -343,28 +525,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.alchemy.com/rpc/aptos)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-mainnet-pay-as-you-go-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Buy](https://www.alchemy.com/pricing)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$5/$45/$215/$415/$815/$2K",
             "queryPrice": "$0.40/$0.45/1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -395,28 +577,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.alchemy.com/pricing)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-mainnet-enterprise-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Contact](https://www.alchemy.com/contact-sales)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -446,28 +628,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://www.alchemy.com/contact-sales)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-free-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Website](https://www.alchemy.com/rpc/aptos-testnet)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Free",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -495,28 +677,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.alchemy.com/rpc/aptos-testnet)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-pay-as-you-go-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Buy](https://www.alchemy.com/pricing)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$5/$45/$215/$415/$815/$2K",
             "queryPrice": "$0.40/$0.45/1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -547,28 +729,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.alchemy.com/pricing)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
             ]
         },
         {
             "slug": "alchemy-testnet-enterprise-full-archive",
             "provider": "Alchemy",
+            "actionButtons": [
+                "[Contact](https://www.alchemy.com/contact-sales)",
+                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -598,28 +780,600 @@
             ],
             "regions": [
                 "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-free-recent-state",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Website](https://www.allthatnode.com/protocol/aptos.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
             ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0/1M request",
             "verifiedUptime": null,
             "verifiedLatency": null,
             "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
             "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "500K CU/day",
+                "150 Cups throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring",
+                "Usage analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-pay-as-you-go-recent-state",
+            "provider": "AllThatNode",
             "actionButtons": [
-                "[Contact](https://www.alchemy.com/contact-sales)",
-                "[Docs](https://www.alchemy.com/docs/reference/aptos-api-quickstart)"
+                "[Buy](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$29/$139/mo, $289/$1389/yearly",
+            "queryPrice": "$0.58/$0.56 per 1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "2M/10M CU/day",
+                "500/2K CUps throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom alerts",
+                "Reporting"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-enterprise-recent-state",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Contact](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom dashboards",
+                "Engineering support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-free-recent-state",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Website](https://www.allthatnode.com/protocol/aptos.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "500K CU/day",
+                "150 Cups throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring",
+                "Usage analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-pay-as-you-go-recent-state",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Buy](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$29/$139/mo, $289/$1389/yearly",
+            "queryPrice": "$0.58/$0.56 per 1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "2M/10M CU/day",
+                "500/2K CUps throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom alerts",
+                "Reporting"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-enterprise-recent-state",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Contact](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom dashboards",
+                "Engineering support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-free-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Website](https://www.allthatnode.com/protocol/aptos.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "500K CU/day",
+                "150 Cups throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring",
+                "Usage analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-pay-as-you-go-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Buy](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$29/$139/mo, $289/$1389/yearly",
+            "queryPrice": "$0.58/$0.56 per 1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "2M/10M CU/day",
+                "500/2K CUps throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom alerts",
+                "Reporting"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-mainnet-enterprise-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Contact](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom dashboards",
+                "Engineering support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-free-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Website](https://www.allthatnode.com/protocol/aptos.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0/1M request",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "500K CU/day",
+                "150 Cups throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring",
+                "Usage analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-pay-as-you-go-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Buy](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$29/$139/mo, $289/$1389/yearly",
+            "queryPrice": "$0.58/$0.56 per 1M CUs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "2M/10M CU/day",
+                "500/2K CUps throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom alerts",
+                "Reporting"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "allthatnode-tesnet-enterprise-full-archive",
+            "provider": "AllThatNode",
+            "actionButtons": [
+                "[Contact](https://www.allthatnode.com/pricing.dsrv)",
+                "[Docs](https://docs.allthatnode.com/docs/supported-protocols-1)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom pricing",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace",
+                "websocket"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited throughput limit"
+            ],
+            "securityImprovements": [
+                "IP Whitelisting",
+                "JWT Authentication",
+                "Smart Contract Address Restrictions",
+                "Front-Running Protection",
+                "Comprehensive Analytics Dashboard"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom dashboards",
+                "Engineering support"
+            ],
+            "regions": [
+                "Global"
             ]
         },
         {
             "slug": "ankr-mainnet-free-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -648,28 +1402,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-mainnet-pay-as-you-go-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "up to $10(payg plan)/$500-$3K(deal plan)",
             "queryPrice": "$0.02(evm compatible API)/$0.05(solana API)/$0.07(beacon chains API)/$0.01(other API)/$0.07(advanced API) per 1K reqs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -696,28 +1450,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-mainnet-enterprise-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -742,28 +1496,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-free-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -792,28 +1546,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-pay-as-you-go-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "up to $10(payg plan)/$500-$3K(deal plan)",
             "queryPrice": "$0.02(evm compatible API)/$0.05(solana API)/$0.07(beacon chains API)/$0.01(other API)/$0.07(advanced API) per 1K reqs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -840,28 +1594,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-enterprise-recent-state",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -886,28 +1640,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-mainnet-free-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Free",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -936,28 +1690,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-mainnet-pay-as-you-go-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "up to $10(payg plan)/$500-$3K(deal plan)",
-            "queryPrice": "$0.02(evm compatible API)/$0.05(solana API)/$0.07(beacon chains API)/$0.01(other API)/$0.07(advanced API) per 1K reqs",
+            "queryPrice": "$20(evm compatible API)/$50(solana API)/$70(beacon chains API)/$10(other API)/$70(advanced API) per 1M reqs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "Custom SLA",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -984,28 +1738,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-mainnet-enterprise-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -1030,28 +1784,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-free-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Free",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -1080,28 +1834,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-pay-as-you-go-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "up to $10(payg plan)/$500-$3K(deal plan)",
-            "queryPrice": "$0.02(evm compatible API)/$0.05(solana API)/$0.07(beacon chains API)/$0.01(other API)/$0.07(advanced API) per 1K reqs",
+            "queryPrice": "$20(evm compatible API)/$50(solana API)/$70(beacon chains API)/$10(other API)/$70(advanced API) per 1M reqs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "Custom SLA",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -1128,28 +1882,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://www.ankr.com/web3-api/chains-list/aptos/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
             ]
         },
         {
             "slug": "ankr-testnet-enterprise-full-archive",
             "provider": "Ankr",
+            "actionButtons": [
+                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
+                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "Custom",
             "queryPrice": "custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "Advanced ANKR API",
@@ -1174,28 +1928,969 @@
             ],
             "regions": [
                 "Global"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-free-recent-state",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Website](https://www.blockdaemon.com/protocols/aptos)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
             ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
             "verifiedUptime": null,
             "verifiedLatency": null,
             "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
             "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "3M CUs/mo",
+                "5 RPS",
+                "1 Test Key"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-pay-as-you-go-recent-state",
+            "provider": "Blockdaemon",
             "actionButtons": [
-                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini/?uuid=a9a8ec5e-1b3d-4a78-ba96-d67ae527256a)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-api/aptos/)"
+                "[Buy](https://www.blockdaemon.com/api/pricing)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": null,
+            "queryPrice": "$42.5/$20 per 1M extra CU",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "15-65M/115-365M CUs/mo",
+                "100/200 RPS",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-enterprise-recent-state",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Contact](https://www.blockdaemon.com/api/pricing#form-jump)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "up to 400M CUs/mo",
+                "custom limits",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-testnet-free-recent-state",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Website](https://www.blockdaemon.com/protocols/aptos)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "3M CUs/mo",
+                "5 RPS",
+                "1 Test Key"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-testnet-pay-as-you-go-recent-state",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Buy](https://www.blockdaemon.com/api/pricing)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": null,
+            "queryPrice": "$42.5/$20 per 1M extra CU",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "15-65M/115-365M CUs/mo",
+                "100/200 RPS",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-testnet-enterprise-recent-state",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Contact](https://www.blockdaemon.com/api/pricing#form-jump)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "up to 400M CUs/mo",
+                "custom limits",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-free-full-archive",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Website](https://www.blockdaemon.com/protocols/aptos)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "3M CUs/mo",
+                "5 RPS",
+                "1 Test Key"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-pay-as-you-go-full-archive",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Buy](https://www.blockdaemon.com/api/pricing)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": null,
+            "queryPrice": "$42.5/$20 per 1M extra CU",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "15-65M/115-365M CUs/mo",
+                "100/200 RPS",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockdaemon-mainnet-enterprise-full-archive",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Contact](https://www.blockdaemon.com/api/pricing#form-jump)",
+                "[Docs](https://docs.blockdaemon.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "up to 400M CUs/mo",
+                "custom limits",
+                "1 Test Key",
+                "10 Live Keys"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "South Africa",
+                "Asia",
+                "Canada Central",
+                "Europe",
+                "South America",
+                "US"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-free-recent-state",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Website](https://blockpi.io/chain/aptos)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "50M Rus/mo",
+                "20 req/sec rate limit"
+            ],
+            "securityImprovements": null,
+            "monitoringAndAnalytics": [
+                "Real-time dashboard metrics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-pay-as-you-go-recent-state",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Buy](https://blockpi.io/pricing)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0.01/$49/$299",
+            "queryPrice": "$0.20/1M CU",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "actual RU usage+50M/mo/125M CUs/750M CUs",
+                "20/1K/2.5K req/sec rate limit"
+            ],
+            "securityImprovements": null,
+            "monitoringAndAnalytics": [
+                "Real-time dashboard metrics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-enterprise-recent-state",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Contact](https://blockpi.io/pricing)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": null,
+            "monitoringAndAnalytics": [
+                "Advanced analytics via Grafana/Prometheus",
+                "Custom alerting (Slack/Telegram)",
+                "Engineering team support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-free-full-archive",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Website](https://blockpi.io/chain/aptos)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.20%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "50M Rus/mo",
+                "20 req/sec rate limit"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time dashboard metrics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-pay-as-you-go-full-archive",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Buy](https://blockpi.io/pricing)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0.01/$49/$299",
+            "queryPrice": "$0.20/1M CU",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.20%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "actual RU usage+50M/mo/125M CUs/750M CUs",
+                "20/1K/2.5K req/sec rate limit"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time dashboard metrics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "blockpi-mainnet-enterprise-full-archive",
+            "provider": "BlockPi",
+            "actionButtons": [
+                "[Contact](https://blockpi.io/pricing)",
+                "[Docs](https://docs.blockpi.io/build/api-reference/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.2%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics via Grafana/Prometheus",
+                "Custom alerting (Slack/Telegram)",
+                "Engineering team support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-mainnet-free-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Website](https://platform.chainbase.com/chainNetwork/Aptos)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "2 reqs/sec",
+                "3 projects"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-mainnet-pay-as-you-go-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Buy](https://platform.chainbase.com/pricing)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$99",
+            "queryPrice": null,
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "10 reqs/sec",
+                "15 projects"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring",
+                "Support portal"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-mainnet-enterprise-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Contact](https://platform.chainbase.com/contact)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": null,
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-testnet-free-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Website](https://platform.chainbase.com/chainNetwork/Aptos)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "2 reqs/sec",
+                "3 projects"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic monitoring"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-testnet-pay-as-you-go-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Buy](https://platform.chainbase.com/pricing)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$99",
+            "queryPrice": null,
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": [
+                "10 reqs/sec",
+                "15 projects"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom monitoring",
+                "Support portal"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "chainbase-testnet-enterprise-custom",
+            "provider": "ChainBase",
+            "actionButtons": [
+                "[Contact](https://platform.chainbase.com/contact)",
+                "[Docs](https://docs.chainbase.com/platform/datasets/overview#non-evm)"
+            ],
+            "plan": "Custom",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": null,
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Data Consistency"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Custom monitoring"
+            ],
+            "regions": [
+                "Global"
             ]
         },
         {
             "slug": "chainstack-mainnet-free-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Website](https://chainstack.com/build-better-with-aptos/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$20/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1216,28 +2911,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://chainstack.com/build-better-with-aptos/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-mainnet-pay-as-you-go-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Buy](https://chainstack.com/pricing/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$49/$199/$349/mo (monthly plan), $40/$166/$290/mo (yearly plan)",
             "queryPrice": "$15/$12.5/$10 per 1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1263,28 +2958,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://chainstack.com/pricing/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-mainnet-enterprise-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Contact](https://console.chainstack.com/user/account#login)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "up to $990/mo (monthly plan), up to $825/mo (yearly plan)",
             "queryPrice": "$5/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1307,28 +3002,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://console.chainstack.com/user/account#login)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-testnet-free-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Website](https://chainstack.com/build-better-with-aptos/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Free",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$0",
             "queryPrice": "$20/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1349,28 +3044,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://chainstack.com/build-better-with-aptos/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-testnet-pay-as-you-go-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Buy](https://chainstack.com/pricing/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$49/$199/$349/mo (monthly plan), $40/$166/$290/mo (yearly plan)",
             "queryPrice": "$15/$12.5/$10 per 1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1396,28 +3091,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://chainstack.com/pricing/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-testnet-enterprise-recent-state",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Contact](https://console.chainstack.com/user/account#login)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Recent-State",
             "chain": "testnet",
             "address": null,
             "accessPrice": "up to $990/mo (monthly plan), up to $825/mo (yearly plan)",
             "queryPrice": "$5/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1440,28 +3135,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://console.chainstack.com/user/account#login)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-mainnet-pay-as-you-go-full-archive",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Buy](https://chainstack.com/pricing/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "$49/$199/$349/mo (monthly plan), $40/$166/$290/mo (yearly plan)",
             "queryPrice": "$15/$12.5/$10 per 1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1487,28 +3182,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://chainstack.com/pricing/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-mainnet-enterprise-full-archive",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Contact](https://console.chainstack.com/user/account#login)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "mainnet",
             "address": null,
             "accessPrice": "up to $990/mo (monthly plan), up to $825/mo (yearly plan)",
             "queryPrice": "$5/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": true,
             "availableApis": [
                 "eth",
@@ -1531,28 +3226,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Contact](https://console.chainstack.com/user/account#login)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-testnet-pay-as-you-go-full-archive",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Buy](https://chainstack.com/pricing/)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Pay-as-you-go",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "$49/$199/$349/mo (monthly plan), $40/$166/$290/mo (yearly plan)",
             "queryPrice": "$15/$12.5/$10 per 1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.90%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": false,
             "availableApis": [
                 "eth",
@@ -1578,28 +3273,28 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://chainstack.com/pricing/)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
             ]
         },
         {
             "slug": "chainstack-testnet-enterprise-full-archive",
             "provider": "ChainStack",
+            "actionButtons": [
+                "[Contact](https://console.chainstack.com/user/account#login)",
+                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+            ],
             "plan": "Enterprise",
             "nodeType": "Full Archive",
             "chain": "testnet",
             "address": null,
             "accessPrice": "up to $990/mo (monthly plan), up to $825/mo (yearly plan)",
             "queryPrice": "$5/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": "99.99%",
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "starred": false,
             "trial": true,
             "availableApis": [
                 "eth",
@@ -1622,31 +3317,1535 @@
             ],
             "regions": [
                 "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-free-recent-state",
+            "provider": "Dwellir",
+            "actionButtons": [
+                "[Website](https://www.dwellir.com/networks/aptos)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
             ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$5 (once)",
+            "queryPrice": "$0",
             "verifiedUptime": null,
             "verifiedLatency": null,
             "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
             "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "20 responses/sec",
+                "500K daily response limit",
+                "1 API Key"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-pay-as-you-go-recent-state",
+            "provider": "Dwellir",
             "actionButtons": [
-                "[Contact](https://console.chainstack.com/user/account#login)",
-                "[Docs](https://docs.chainstack.com/docs/aptos-methods)"
+                "[Buy](https://www.dwellir.com/pricing)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$299/$999",
+            "queryPrice": "$5/$3/$2/1M requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "100/500/2K responses/sec",
+                "500/2500/10K responses/sec(burst)",
+                "unlimited daily response",
+                "10/15/20 API Keys"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-enterprise-recent-state",
+            "provider": "Dwellir",
+            "actionButtons": [
+                "[Contact](https://www.dwellir.com/contact)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-free-full-archive",
+            "provider": "Dwellir",
+            "actionButtons": [
+                "[Website](https://www.dwellir.com/networks/aptos)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$5 (once)",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "20 responses/sec",
+                "500K daily response limit",
+                "1 API Key"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-pay-as-you-go-full-archive",
+            "provider": "Dwellir",
+            "actionButtons": [
+                "[Buy](https://www.dwellir.com/pricing)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$299/$999",
+            "queryPrice": "$5/$3/$2/1M requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "100/500/2K responses/sec",
+                "500/2500/10K responses/sec(burst)",
+                "unlimited daily response",
+                "10/15/20 API Keys"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "dwellir-mainnet-enterprise-full-archive",
+            "provider": "Dwellir",
+            "actionButtons": [
+                "[Contact](https://www.dwellir.com/contact)",
+                "[Docs](https://www.dwellir.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "trace",
+                "debug"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "HTTPS and WebSocket protocols with strict authentication controls such as API key rotation, IP allow lists, and JWT-based authentication to prevent unauthorized access",
+                "Bare metal servers"
+            ],
+            "monitoringAndAnalytics": null,
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-free-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Website](https://getblock.io/nodes/apt/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50K CU",
+                "20 RPS",
+                "2 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-pay-as-you-go-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Buy](https://getblock.io/pricing/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
+            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50M/220M/600M CU",
+                "100/300/500 RPS",
+                "10/25/50 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-enterprise-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-dedicated-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Dedicated",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Up to $1K",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited requests",
+                "unlimited rate limit"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-free-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Website](https://getblock.io/nodes/apt/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50K CU",
+                "20 RPS",
+                "2 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-pay-as-you-go-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Buy](https://getblock.io/pricing/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
+            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50M/220M/600M CU",
+                "100/300/500 RPS",
+                "10/25/50 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-enterprise-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-dedicated-recent-state",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Dedicated",
+            "nodeType": "Recent-State",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Up to $1K",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited requests",
+                "unlimited rate limit"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-pay-as-you-go-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Buy](https://getblock.io/pricing/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
+            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50M/220M/600M CU",
+                "100/300/500 RPS",
+                "10/25/50 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-enterprise-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-mainnet-dedicated-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Dedicated",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Up to $1K",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited requests",
+                "unlimited rate limit"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-pay-as-you-go-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Buy](https://getblock.io/pricing/)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
+            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.98%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "50M/220M/600M CU",
+                "100/300/500 RPS",
+                "10/25/50 Access Tokens"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-enterprise-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "getblock-testnet-dedicated-full-archive",
+            "provider": "GetBlock",
+            "actionButtons": [
+                "[Contact](https://account.getblock.io/sign-up)",
+                "[Docs](https://docs.getblock.io/api-reference/aptos-apt)"
+            ],
+            "plan": "Dedicated",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Up to $1K",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Algorand Native API",
+                "Indexer API",
+                "Algo API",
+                "NFTs",
+                "WebSockets"
+            ],
+            "limitations": [
+                "custom limits",
+                "unlimited requests",
+                "unlimited rate limit"
+            ],
+            "securityImprovements": [
+                "Privacy Protected Relays",
+                "Transaction Sanitizers",
+                "Dedicated nodes with enterprise-grade security",
+                "Multi-region infrastructure"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time performance tracking",
+                "Advanced monitoring and analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "nownodes-mainnet-free-recent-state",
+            "provider": "Nownodes",
+            "actionButtons": [
+                "[Website](https://nownodes.io/nodes/aptos-apt)",
+                "[Docs](https://nownodes.gitbook.io/apt-aptos/)"
+            ],
+            "plan": "Free",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "€0",
+            "queryPrice": "€0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.95%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "All read methods + MPoolPush"
+            ],
+            "limitations": [
+                "100K reqs/mo",
+                "1 month only",
+                "1 API key/15 RPS limit"
+            ],
+            "securityImprovements": [
+                "Domain name protection",
+                "Secure infrastructure with 24/7 monitoring"
+            ],
+            "monitoringAndAnalytics": [
+                "per-key analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "nownodes-mainnet-pay-as-you-go-recent-state",
+            "provider": "Nownodes",
+            "actionButtons": [
+                "[Buy](https://nownodes.io/pricing)",
+                "[Docs](https://nownodes.gitbook.io/apt-aptos/)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "€20/€200 (monthly plan), €220/€2200 (yearly plan)",
+            "queryPrice": "€50/€10/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.95%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "All read methods + MPoolPush"
+            ],
+            "limitations": [
+                "1M/30M reqs/mo",
+                "up to 3/up to 25 API keys"
+            ],
+            "securityImprovements": [
+                "Domain name protection",
+                "Secure infrastructure with 24/7 monitoring"
+            ],
+            "monitoringAndAnalytics": [
+                "per-key analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "nownodes-mainnet-enterprise-recent-state",
+            "provider": "Nownodes",
+            "actionButtons": [
+                "[Contact](https://account.nownodes.io/auth/login)",
+                "[Docs](https://nownodes.gitbook.io/apt-aptos/)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "€500 (monthly plan), €5500 (yearly plan)",
+            "queryPrice": "€5/1M extra requests",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.95%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "All read methods + MPoolPush"
+            ],
+            "limitations": [
+                "100M req/mo, up to 100 API keys"
+            ],
+            "securityImprovements": [
+                "Domain name protection",
+                "Secure infrastructure with 24/7 monitoring",
+                "Private RPC nodes"
+            ],
+            "monitoringAndAnalytics": [
+                "per-key analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "nownodes-mainnet-dedicated-recent-state",
+            "provider": "Nownodes",
+            "actionButtons": [
+                "[Contact](https://account.nownodes.io/auth/login)",
+                "[Docs](https://nownodes.gitbook.io/apt-aptos/)"
+            ],
+            "plan": "Dedicated",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "up to €400",
+            "queryPrice": "no overlimit charges",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.95%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "All read methods + MPoolPush"
+            ],
+            "limitations": [
+                "Unlimited reqs/mo, no API keys - access via personal credentials"
+            ],
+            "securityImprovements": [
+                "Domain name protection",
+                "Secure infrastructure with 24/7 monitoring",
+                "Private RPC nodes"
+            ],
+            "monitoringAndAnalytics": [
+                "per-key analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "onfinality-mainnet-free-full-archive",
+            "provider": "OnFinality",
+            "actionButtons": [
+                "[Website](https://onfinality.io/en/networks/aptos)",
+                "[Docs](https://documentation.onfinality.io/support/aptos)"
+            ],
+            "plan": "Free",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Network native APIs",
+                "Trace API"
+            ],
+            "limitations": [
+                "400K API daily limit",
+                "40 response units/sec"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Requests count monitoring",
+                "Response time monitoring",
+                "Geographical monitoring",
+                "Per method monitoring"
+            ],
+            "regions": [
+                "N.Virginia",
+                "Ireland",
+                "Tokyo",
+                "Frankfurt"
+            ]
+        },
+        {
+            "slug": "onfinality-mainnet-pay-as-you-go-full-archive",
+            "provider": "OnFinality",
+            "actionButtons": [
+                "[Buy](https://onfinality.io/en/pricing)",
+                "[Docs](https://documentation.onfinality.io/support/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$249",
+            "queryPrice": "$3.75/$6/1M extra units",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Network native APIs",
+                "Trace API"
+            ],
+            "limitations": [
+                "20M/100M API response units",
+                "200/500 response units/sec"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Requests count monitoring",
+                "Response time monitoring",
+                "Geographical monitoring",
+                "Per method monitoring"
+            ],
+            "regions": [
+                "N.Virginia",
+                "Ireland",
+                "Tokyo",
+                "Frankfurt"
+            ]
+        },
+        {
+            "slug": "onfinality-mainnet-enterprise-full-archive",
+            "provider": "OnFinality",
+            "actionButtons": [
+                "[Contact](https://onfinality.io/en/pricing)",
+                "[Docs](https://documentation.onfinality.io/support/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "Network native APIs",
+                "Trace API"
+            ],
+            "limitations": [
+                "Unlimited response units",
+                "Custom limits"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection"
+            ],
+            "monitoringAndAnalytics": [
+                "Requests count monitoring",
+                "Response time monitoring",
+                "Geographical monitoring",
+                "Per method monitoring"
+            ],
+            "regions": [
+                "N.Virginia",
+                "Ireland",
+                "Tokyo",
+                "Frankfurt"
+            ]
+        },
+        {
+            "slug": "publicnode-mainnet-public-recent-state",
+            "provider": "PublicNode",
+            "actionButtons": [
+                "[Website](https://aptos.publicnode.com/)"
+            ],
+            "plan": "Public",
+            "nodeType": "Recent-State",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "web3",
+                "net"
+            ],
+            "limitations": null,
+            "securityImprovements": [
+                "DDoS Protection",
+                "Privacy-relays"
+            ],
+            "monitoringAndAnalytics": [
+                "Tracking key",
+                "Node health metrics",
+                "Advanced monitoring",
+                "Custom metrics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "quicknode-mainnet-pay-as-you-go-full-archive",
+            "provider": "Quicknode",
+            "actionButtons": [
+                "[Buy](https://www.quicknode.com/pricing)",
+                "[Docs](https://www.quicknode.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "$49/$249/$499/$999/mo (monthly plan), $42/$212/$424$/$849/mo (yearly plan)",
+            "queryPrice": "$0.62/$0.55/$0.53/$0.5 per 1M extra API credits",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "80M/450M/950M/2B API credits",
+                "10/20/50 endpoints",
+                "50/125/250/500 reqs/sec"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving",
+                "SAML SSO"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom dashboards",
+                "Alerts & endpoints monitoring",
+                "Advanced analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "quicknode-mainnet-enterprise-full-archive",
+            "provider": "Quicknode",
+            "actionButtons": [
+                "[Contact](https://www.quicknode.com/contact-us)",
+                "[Docs](https://www.quicknode.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "mainnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "Custom limits",
+                "Unlimited endpoints"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Console API (Prometheus/Grafana)",
+                "Custom alerting & engineering support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "quicknode-testnet-pay-as-you-go-full-archive",
+            "provider": "Quicknode",
+            "actionButtons": [
+                "[Buy](https://www.quicknode.com/pricing)",
+                "[Docs](https://www.quicknode.com/docs/aptos)"
+            ],
+            "plan": "Pay-as-you-go",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "$49/$249/$499/$999/mo (monthly plan), $42/$212/$424$/$849/mo (yearly plan)",
+            "queryPrice": "$0.62/$0.55/$0.53/$0.5 per 1M extra API credits",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.99%",
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "80M/450M/950M/2B API credits",
+                "10/20/50 endpoints",
+                "50/125/250/500 reqs/sec"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving",
+                "SAML SSO"
+            ],
+            "monitoringAndAnalytics": [
+                "Usage analytics",
+                "Custom dashboards",
+                "Alerts & endpoints monitoring",
+                "Advanced analytics"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "quicknode-testnet-enterprise-full-archive",
+            "provider": "Quicknode",
+            "actionButtons": [
+                "[Contact](https://www.quicknode.com/contact-us)",
+                "[Docs](https://www.quicknode.com/docs/aptos)"
+            ],
+            "plan": "Enterprise",
+            "nodeType": "Full Archive",
+            "chain": "testnet",
+            "address": null,
+            "accessPrice": "Custom",
+            "queryPrice": "Custom",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "eth",
+                "net",
+                "web3",
+                "debug",
+                "trace"
+            ],
+            "limitations": [
+                "Custom limits",
+                "Unlimited endpoints"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Protection",
+                "Privacy preserving"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced analytics",
+                "Console API (Prometheus/Grafana)",
+                "Custom alerting & engineering support"
+            ],
+            "regions": [
+                "Global"
             ]
         }
     ],
     "indexing": [
         {
+            "slug": "aptos-indexer-mainnet-free",
+            "provider": "Aptos",
+            "actionButtons": [
+                "[Docs](https://aptos.dev/build/indexer)"
+            ],
+            "chain": "mainnet",
+            "address": null,
+            "technology": "Custom",
+            "plan": "Free",
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "supportSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": null,
+            "limitations": [
+                "Rate limits",
+                "Limited Customization"
+            ],
+            "securityImprovements": [
+                "On-chain governance",
+                "Decentralized validator system",
+                "Compliance and security standards",
+                "Parallel execution and modular architecture"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time tracking",
+                "Historical analysis",
+                "Performance reporting"
+            ],
+            "additionalFeatures": [
+                "Custom Contract Indexing",
+                "Transaction Stream Service",
+                "Legacy Indexer Support"
+            ],
+            "regions": [
+                "USA",
+                "Germany",
+                "Singapore"
+            ]
+        },
+        {
+            "slug": "aptos-indexer-testnet-free",
+            "provider": "Aptos",
+            "actionButtons": [
+                "[Docs](https://aptos.dev/build/indexer)"
+            ],
+            "chain": "testnet",
+            "address": null,
+            "technology": "Custom",
+            "plan": "Free",
+            "accessPrice": "$0",
+            "queryPrice": "$0",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": null,
+            "bandwidthSla": null,
+            "blocksBehindSla": null,
+            "supportSla": null,
+            "starred": false,
+            "trial": false,
+            "availableApis": null,
+            "limitations": [
+                "Rate limits",
+                "Limited Customization"
+            ],
+            "securityImprovements": [
+                "On-chain governance",
+                "Decentralized validator system",
+                "Compliance and security standards",
+                "Parallel execution and modular architecture"
+            ],
+            "monitoringAndAnalytics": [
+                "Real-time tracking",
+                "Historical analysis",
+                "Performance reporting"
+            ],
+            "additionalFeatures": [
+                "Custom Contract Indexing",
+                "Transaction Stream Service",
+                "Legacy Indexer Support"
+            ],
+            "regions": [
+                "USA",
+                "Germany",
+                "Singapore"
+            ]
+        },
+        {
             "slug": "chainstack-mainnet-free",
             "provider": "Chainstack",
+            "actionButtons": [
+                "[Website](https://chainstack.com/protocols/aptos/)",
+                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
+            ],
             "chain": "mainnet",
             "address": null,
             "technology": "The Graph",
             "plan": "Free",
-            "trial": false,
             "accessPrice": "$0",
             "queryPrice": "$20/1M request units for extra usage",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "supportSla": null,
+            "starred": false,
+            "trial": false,
             "availableApis": [
                 "GraphQL"
             ],
@@ -1670,30 +4869,30 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Website](https://chainstack.com/protocols/aptos/)",
-                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
-            ],
-            "supportSla": null
+            ]
         },
         {
             "slug": "chainstack-mainnet-pay-as-you-go",
             "provider": "Chainstack",
+            "actionButtons": [
+                "[Buy](https://chainstack.com/subgraphs/)",
+                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
+            ],
             "chain": "mainnet",
             "address": null,
             "technology": "The Graph",
             "plan": "Pay-as-you-go",
-            "trial": false,
             "accessPrice": "$5(first month only)/$49/$199/$349 + $72 per subgraph",
             "queryPrice": "$15/$12.5/$10/1M request units for extra usage",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "supportSla": null,
+            "starred": false,
+            "trial": false,
             "availableApis": [
                 "GraphQL"
             ],
@@ -1719,30 +4918,30 @@
             ],
             "regions": [
                 "Global"
-            ],
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "starred": false,
-            "actionButtons": [
-                "[Buy](https://chainstack.com/subgraphs/)",
-                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
-            ],
-            "supportSla": null
+            ]
         },
         {
             "slug": "chainstack-mainnet-enterprise",
             "provider": "Chainstack",
+            "actionButtons": [
+                "[Contact](https://console.chainstack.com/user/account#login)",
+                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
+            ],
             "chain": "mainnet",
             "address": null,
             "technology": "The Graph",
             "plan": "Enterprise",
-            "trial": false,
             "accessPrice": "$990",
             "queryPrice": "$5/1M request units for extra usage",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
             "uptimeSla": null,
             "bandwidthSla": null,
             "blocksBehindSla": null,
+            "supportSla": null,
+            "starred": false,
+            "trial": false,
             "availableApis": [
                 "GraphQL"
             ],
@@ -1769,16 +4968,171 @@
             ],
             "regions": [
                 "Global"
+            ]
+        },
+        {
+            "slug": "indexing-co-mainnet-free",
+            "provider": "The Indexing Company",
+            "actionButtons": [
+                "[Docs](https://docs.indexing.co/networks/aptos)"
             ],
+            "chain": "mainnet",
+            "address": null,
+            "technology": "Custom",
+            "plan": "Free",
+            "accessPrice": "$0",
+            "queryPrice": "Included",
             "verifiedUptime": null,
             "verifiedLatency": null,
             "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.50%",
+            "bandwidthSla": null,
+            "blocksBehindSla": "2",
+            "supportSla": "Standard Support",
             "starred": false,
-            "actionButtons": [
-                "[Contact](https://console.chainstack.com/user/account#login)",
-                "[Docs](https://docs.chainstack.com/docs/nodes-clouds-regions-and-locations#aptos)"
+            "trial": false,
+            "availableApis": [
+                "SQL",
+                "REST",
+                "Webhooks"
             ],
-            "supportSla": null
+            "limitations": [
+                "Any network",
+                "Up to 10K filtered blocks"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Whitelisting",
+                "Private Endpoints",
+                "Secure API Keys",
+                "End-to-end encryption"
+            ],
+            "monitoringAndAnalytics": [
+                "Basic logs",
+                "Usage dashboard"
+            ],
+            "additionalFeatures": [
+                "PostgreSQL delivery",
+                "Webhook delivery",
+                "Auto-schema generation"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "indexing-co-mainnet-pay-as-you-go",
+            "provider": "The Indexing Company",
+            "actionButtons": [
+                "[Docs](https://docs.indexing.co/networks/aptos)"
+            ],
+            "chain": "mainnet",
+            "address": null,
+            "technology": "Custom",
+            "plan": "Pay-as-you-go",
+            "accessPrice": "Usage-based/Subscription-based",
+            "queryPrice": "Included",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.90%/99.95%",
+            "bandwidthSla": "Guaranteed",
+            "blocksBehindSla": "2/(1)",
+            "supportSla": "Standard Support/Dedicated Support",
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "SQL",
+                "REST",
+                "Webhooks"
+            ],
+            "limitations": [
+                "Up to 3/up to 10 networks",
+                "Wallet & ERC20 tracking",
+                "Multi-chain decoding (swaps, bridges, payments)",
+                "Custom transformations",
+                "Historical + real-time stream",
+                "Schema mapping design"
+            ],
+            "securityImprovements": [
+                "DDoS Protection",
+                "IP Whitelisting",
+                "Private Endpoints",
+                "Secure API Keys",
+                "End-to-end encryption"
+            ],
+            "monitoringAndAnalytics": [
+                "Pipeline logs",
+                "Delivery metrics",
+                "Logs",
+                "Analytics",
+                "Alerting & Monitoring"
+            ],
+            "additionalFeatures": [
+                "Slack & Email support",
+                "PostgreSQL delivery",
+                "Webhook delivery",
+                "Dedicated Support Engineer",
+                "SLA-backed uptime",
+                "System Integration support"
+            ],
+            "regions": [
+                "Global"
+            ]
+        },
+        {
+            "slug": "indexing-co-mainnet-enterprise",
+            "provider": "The Indexing Company",
+            "actionButtons": [
+                "[Docs](https://docs.indexing.co/networks/aptos)"
+            ],
+            "chain": "mainnet",
+            "address": null,
+            "technology": "Custom",
+            "plan": "Enterprise",
+            "accessPrice": "Custom",
+            "queryPrice": "Custom pricing & SLAs",
+            "verifiedUptime": null,
+            "verifiedLatency": null,
+            "verifiedBlocksBehindAvg": null,
+            "uptimeSla": "99.95%",
+            "bandwidthSla": "Guaranteed",
+            "blocksBehindSla": "0",
+            "supportSla": "24/7 priority support",
+            "starred": false,
+            "trial": false,
+            "availableApis": [
+                "SQL",
+                "REST",
+                "Webhooks"
+            ],
+            "limitations": [
+                "Unlimited networks",
+                "Unlimited transformations",
+                "Private Node & RPC ingestion",
+                "Custom delivery architecture"
+            ],
+            "securityImprovements": [
+                "Dedicated nodes",
+                "Private networking",
+                "DDoS Protection",
+                "IP Whitelisting",
+                "Private Endpoints",
+                "Secure API Keys",
+                "End-to-end encryption"
+            ],
+            "monitoringAndAnalytics": [
+                "Advanced monitoring",
+                "Uptime analytics"
+            ],
+            "additionalFeatures": [
+                "Hybrid cloud/bare metal delivery",
+                "Compliance-ready infra",
+                "Priority support"
+            ],
+            "regions": [
+                "Global"
+            ]
         }
     ],
     "oracle": [
@@ -2316,6 +5670,410 @@
                 "[Bridge](https://meson.fi/)",
                 "[Docs](https://meson.fi/docs)"
             ]
+        },
+        {
+            "slug": "layerzero-mainnet",
+            "provider": "LayerZero Labs",
+            "chain": "mainnet",
+            "technology": "Omnichain Messaging & OFT",
+            "openSource": true,
+            "support": [
+                "Discord",
+                "Email"
+            ],
+            "supportedChains": [
+                "ethereum",
+                "bnb chain",
+                "base",
+                "linea",
+                "arbitrum",
+                "harmony"
+            ],
+            "availableApis": [
+                "REST API",
+                "GraphQL"
+            ],
+            "monitoringAndAnalytics": [
+                "Blockscout",
+                "Custom Dashboards"
+            ],
+            "additionalFeatures": [
+                "Omnichain Fungible Token",
+                "Unified Liquidity Pools",
+                "Cross‑chain Governance"
+            ],
+            "assetTypes": [
+                "ETH",
+                "ERC‑20 OFT"
+            ],
+            "txSpeedSla": null,
+            "throughputSla": null,
+            "price": "Gas Fee",
+            "economicalSecurity": true,
+            "economicalSecurityNote": "Configurable DVN consensus across chains",
+            "auditsPerformed": [
+                "Ackee Blockchain Protocol Audit (Mar 2022)",
+                "ChainSecurity OFT/OApp Audit",
+                "Zellic Core Audit"
+            ],
+            "decentralizationModel": "Decentralized",
+            "sdk": [
+                "TypeScript"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Bridge](https://layerzero.bridge.harmony.one/one)",
+                "[Docs](https://docs.layerzero.network/v2)"
+            ]
+        },
+        {
+            "slug": "stargate-mainnet",
+            "provider": "Stargate Finance",
+            "chain": "mainnet",
+            "technology": "Omnichain Liquidity Layer",
+            "openSource": true,
+            "support": [
+                "Discord",
+                "Email"
+            ],
+            "supportedChains": [
+                "base",
+                "plasma",
+                "arbitrum",
+                "optimism",
+                "linea",
+                "ethereum",
+                "unichain",
+                "soneium",
+                "hyperliquid",
+                "solana",
+                "og",
+                "abstract",
+                "ape",
+                "abstract",
+                "aptos",
+                "near",
+                "avalanche",
+                "berachain",
+                "blast",
+                "bnb chain",
+                "bob",
+                "botanix",
+                "celo",
+                "core",
+                "corn",
+                "cronos",
+                "cyber",
+                "degen",
+                "edu",
+                "ethereal",
+                "etherlink",
+                "fantom",
+                "flare",
+                "flow",
+                "fraxtal",
+                "fuse",
+                "glue",
+                "gnosis",
+                "goat",
+                "gravity",
+                "hedera",
+                "hemi",
+                "hyperevm",
+                "ink",
+                "iota",
+                "kaia",
+                "katana",
+                "kava",
+                "lightlink",
+                "lisk",
+                "manta",
+                "mantle",
+                "metis",
+                "mode",
+                "moonbeam",
+                "moon",
+                "morph",
+                "nibiru",
+                "opbnb",
+                "peaq",
+                "plume",
+                "polygon",
+                "zkevm",
+                "rari",
+                "rootstock",
+                "sanko",
+                "scroll",
+                "sei",
+                "somnia",
+                "sonic",
+                "soph",
+                "story",
+                "sui",
+                "superposition",
+                "swell",
+                "tac",
+                "taiko",
+                "telosevm",
+                "ton",
+                "tron",
+                "vana",
+                "viction",
+                "worldchain",
+                "x layer",
+                "xdc",
+                "xpla",
+                "zircuit",
+                "zksync",
+                "zkverify",
+                "zora"
+            ],
+            "availableApis": [
+                "REST API",
+                "GraphQL"
+            ],
+            "monitoringAndAnalytics": [
+                "Pooled Liquidity Transfers",
+                "OFT Cross-chain Transfers"
+            ],
+            "additionalFeatures": [
+                "Unified Liquidity Pools",
+                "Low-Fee (0.06%)",
+                "OFT Support"
+            ],
+            "assetTypes": [
+                "ETH",
+                "USDC",
+                "USDT",
+                "ERC‑20",
+                "OFT"
+            ],
+            "txSpeedSla": null,
+            "throughputSla": null,
+            "price": "Gas Fee, Protocol Fee",
+            "economicalSecurity": true,
+            "economicalSecurityNote": "Decentralized pools secured by LayerZero consensus",
+            "auditsPerformed": [
+                "Audit(s) by DeFi teams"
+            ],
+            "decentralizationModel": "Decentralized",
+            "sdk": [
+                "TypeScript"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Bridge](https://stargate.finance/)"
+            ]
+        },
+        {
+            "slug": "wormhole-mainnet",
+            "provider": "Wormhole",
+            "chain": "mainnet",
+            "technology": "Generic Messaging & Asset Bridge",
+            "openSource": true,
+            "support": [
+                "Discord"
+            ],
+            "supportedChains": [
+                "ethereum",
+                "arbitrum",
+                "polygon",
+                "avalanche",
+                "sui",
+                "optimism",
+                "solana",
+                "base",
+                "hyperevm",
+                "bnb chain",
+                "unichain",
+                "celo",
+                "moonbeam",
+                "kaia",
+                "scroll",
+                "berachain",
+                "mezo",
+                "aptos",
+                "world chain",
+                "ink",
+                "linea",
+                "sonic",
+                "seievm",
+                "plume",
+                "xrpl evm",
+                "creditcoin"
+            ],
+            "availableApis": [
+                "Asset Transfer",
+                "Cross-chain Messaging"
+            ],
+            "monitoringAndAnalytics": null,
+            "additionalFeatures": [
+                "Guardian network of validators",
+                "VAA attestations"
+            ],
+            "assetTypes": [
+                "ERC-20",
+                "OFT",
+                "NFT"
+            ],
+            "txSpeedSla": null,
+            "throughputSla": null,
+            "price": "Gas Fee",
+            "economicalSecurity": true,
+            "economicalSecurityNote": "Independent guardian set across ~30 chains",
+            "auditsPerformed": [
+                "Audits + bug bounty"
+            ],
+            "decentralizationModel": "Decentralized",
+            "sdk": [
+                "TypeScript"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Bridge](https://portalbridge.com/)",
+                "[Docs](https://wormhole.com/docs/)"
+            ]
+        },
+        {
+            "slug": "messina-mainnet",
+            "provider": "MessinaOne Bridge",
+            "chain": "mainnet",
+            "technology": "Cross‑chain Bridge via Wormhole",
+            "openSource": true,
+            "support": [
+                "Discord"
+            ],
+            "supportedChains": [
+                "ethereum",
+                "bnb chain",
+                "base",
+                "algorand",
+                "arbitrum",
+                "optimism",
+                "aptos",
+                "polygon",
+                "avalanche"
+            ],
+            "availableApis": [
+                "Asset Transfer"
+            ],
+            "monitoringAndAnalytics": null,
+            "additionalFeatures": [
+                "Wormhole integration",
+                "Liquidity pools"
+            ],
+            "assetTypes": [
+                "ETH",
+                "ERC‑20"
+            ],
+            "txSpeedSla": null,
+            "throughputSla": null,
+            "price": "Gas Fee",
+            "economicalSecurity": true,
+            "economicalSecurityNote": "Audited by Certik & Kudelski",
+            "auditsPerformed": [
+                "Certik",
+                "Kudelski Security"
+            ],
+            "decentralizationModel": "Partially Decentralized",
+            "sdk": [
+                "Web UI"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Bridge](https://messina.one/bridge)",
+                "[Docs](https://messinaone.gitbook.io/messina/)"
+            ]
+        },
+        {
+            "slug": "rubic-mainnet",
+            "provider": "Rubic",
+            "chain": "mainnet",
+            "technology": "Bridge Aggregator",
+            "openSource": true,
+            "support": [
+                "Discord"
+            ],
+            "supportedChains": [
+                "polygon",
+                "bnb chain",
+                "tron",
+                "unichain",
+                "bitcoin",
+                "solana",
+                "base",
+                "arbitrum",
+                "ethereum",
+                "linea",
+                "optimism",
+                "zksync era",
+                "ton",
+                "avalanche",
+                "berachain",
+                "blast",
+                "scroll",
+                "morph",
+                "fraxtal",
+                "soneium",
+                "mode",
+                "mantle",
+                "metis",
+                "manta pacific",
+                "fantom",
+                "zkevm",
+                "pulsechain",
+                "taiko",
+                "hemi",
+                "filecoin",
+                "x layer",
+                "bahamut",
+                "dash",
+                "monero",
+                "cardano",
+                "cosmos",
+                "litecoin",
+                "xrp ledger",
+                "aptos",
+                "polkadot",
+                "stellar",
+                "near",
+                "zilliqa",
+                "tezos",
+                "xdc",
+                "kava cosmos",
+                "neo",
+                "gnosis",
+                "flare"
+            ],
+            "availableApis": [
+                "Bridge API",
+                "Swap API"
+            ],
+            "monitoringAndAnalytics": null,
+            "additionalFeatures": [
+                "15k+ tokens",
+                "100+ chains supported"
+            ],
+            "assetTypes": [
+                "ETH",
+                "ERC‑20"
+            ],
+            "txSpeedSla": null,
+            "throughputSla": null,
+            "price": "Depends on underlying bridge",
+            "economicalSecurity": true,
+            "economicalSecurityNote": "Security inherited from selected bridge",
+            "auditsPerformed": null,
+            "decentralizationModel": null,
+            "sdk": [
+                "JS SDK",
+                "Web UI"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Bridge](https://rubic.exchange)",
+                "[Docs](https://docs.rubic.finance/)"
+            ]
         }
     ],
     "explorer": [
@@ -2601,6 +6359,116 @@
             "actionButtons": [
                 "[Dashboard](https://app.nansen.ai/macro/blockchains?chain=aptos)"
             ]
+        },
+        {
+            "slug": "defillama-mainnet",
+            "provider": "DeFiLlama",
+            "chain": "mainnet",
+            "dataSources": [
+                "DeFi TVL",
+                "DEX & Perps Volume",
+                "Bridged Assets",
+                "Active Addresses",
+                "Stablecoin Supply"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0/$49/$300/mo (monthly plan), $0 (2 months free)/$40.83/mo ($490/year)/$250/mo (3K/year) (yearly plan)",
+            "starred": false,
+            "actionButtons": [
+                "[Dashboard](https://defillama.com/chain/aptos)"
+            ]
+        },
+        {
+            "slug": "cryptoquant-mainnet",
+            "provider": "CryptoQuant",
+            "chain": "mainnet",
+            "dataSources": [
+                "Exchange Reserves",
+                "Network Transactions",
+                "Derivatives Data",
+                "Staking Data",
+                "Market Price/Volume"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0/$39/$109/mo (monthly plan), $0/$29/$99/$799/mo (yearly plan)",
+            "starred": false,
+            "actionButtons": [
+                "[Dashboard](https://cryptoquant.com/asset/apt/summary)"
+            ]
+        },
+        {
+            "slug": "blockworks-mainnet",
+            "provider": "Blockworks",
+            "chain": "mainnet",
+            "dataSources": [
+                "Network fees",
+                "Transaction activity",
+                "Contracts deployed",
+                "Tokens created",
+                "Retention rate",
+                "Economics per defi type",
+                "AI Agents",
+                "Stablecoins swaps",
+                "Meme coins"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "Data API",
+                "Supported Data Types",
+                "Additional Tools and Libraries"
+            ],
+            "price": "$0",
+            "starred": false,
+            "actionButtons": [
+                "[Dashboard](https://blockworks.com/analytics/aptos)"
+            ]
+        },
+        {
+            "slug": "tokenrterminal-mainnet",
+            "provider": "token terminal",
+            "chain": "mainnet",
+            "dataSources": [
+                "Active wallets",
+                "Active projects",
+                "Revenue",
+                "Fees"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "JSON-RPC with 60 RPS"
+            ],
+            "price": "$0/$350/mo (monthly plan), $0/$292/mo (yearly plan)",
+            "starred": false,
+            "actionButtons": [
+                "[Dashboard](https://tokenterminal.com/explorer/studio/dashboards/a18c3307-36db-4e2d-8721-599d6e6d6cae)"
+            ]
+        },
+        {
+            "slug": "dexscreener-mainnet",
+            "provider": "DexScreener",
+            "chain": "mainnet",
+            "dataSources": [
+                "DEX Trading Pairs",
+                "Token Prices",
+                "Volume",
+                "Liquidity",
+                "Swaps"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0",
+            "starred": false,
+            "actionButtons": [
+                "[Dashboard](https://dexscreener.com/aptos)"
+            ]
         }
     ],
     "wallet": [
@@ -2743,58 +6611,381 @@
             "actionButtons": [
                 "[Website](https://www.exodus.com/)"
             ]
+        },
+        {
+            "slug": "backpack",
+            "provider": "Backpack",
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "SPL",
+                "ERC-721"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "discord",
+                "chatbot"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://backpack.exchange/)"
+            ]
+        },
+        {
+            "slug": "c98wallet",
+            "provider": "C98wallet",
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-20",
+                "SPL",
+                "PRC-20",
+                "VRC-25"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "x",
+                "discord"
+            ],
+            "audit": [
+                "audit with code"
+            ],
+            "languages": [
+                "EN",
+                "FR",
+                "JA",
+                "PT",
+                "KO",
+                "ZH",
+                "ES",
+                "TR",
+                "ID",
+                "RU",
+                "TH",
+                "VI"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://coin98.com/)"
+            ]
+        },
+        {
+            "slug": "gem-wallet",
+            "provider": "Gem Wallet",
+            "openSource": true,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": false,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "chat on website"
+            ],
+            "audit": [
+                "open to anyone"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://gemwallet.com/)"
+            ]
+        },
+        {
+            "slug": "math-wallet",
+            "provider": "Math Wallet",
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": true,
+            "hardware": false,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": true,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "x",
+                "telegram"
+            ],
+            "audit": [
+                "audit by third parties"
+            ],
+            "languages": [
+                "EN",
+                "FR",
+                "ES",
+                "DE",
+                "ZH",
+                "NL",
+                "IT",
+                "PL",
+                "PT",
+                "JA",
+                "IT",
+                "ID",
+                "HI",
+                "NL",
+                "CS",
+                "CA",
+                "BG",
+                "AR",
+                "VI",
+                "TR",
+                "RU",
+                "FA",
+                "KO",
+                "SV",
+                "HA",
+                "YO"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://www.mathwallet.org/)"
+            ]
+        },
+        {
+            "slug": "okxwallet",
+            "provider": "OKX Wallet",
+            "openSource": true,
+            "supportedPlatforms": [
+                "Web",
+                "Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": true,
+            "evm": false,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721",
+                "ERC-1155"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email",
+                "helpdesk"
+            ],
+            "audit": null,
+            "languages": [
+                "EN",
+                "ZH"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://www.okx.com/wallet)"
+            ]
+        },
+        {
+            "slug": "tokenpocket",
+            "provider": "TokenPocket",
+            "openSource": false,
+            "supportedPlatforms": [
+                "iOS",
+                "Android",
+                "Chrome"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721",
+                "ERC-1155"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "telegram",
+                "discord"
+            ],
+            "audit": null,
+            "languages": [
+                "EN",
+                "ZH",
+                "JA"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://www.tokenpocket.pro/)"
+            ]
+        },
+        {
+            "slug": "guarda",
+            "provider": "Guarda",
+            "openSource": true,
+            "supportedPlatforms": [
+                "Desktop",
+                "iOS",
+                "Android",
+                " Chrome",
+                " Web"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": true,
+            "hardware": false,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": true,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721",
+                "BEP-2",
+                "BEP-20",
+                "TRC-10",
+                "TRC-20",
+                "Algorand Standard Assets (ASA)"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "[email](support@guarda.com)",
+                "telegram",
+                "x",
+                "youtube"
+            ],
+            "audit": null,
+            "languages": [
+                "EN",
+                "RU"
+            ],
+            "starred": false,
+            "actionButtons": [
+                "[Website](https://guarda.com/)"
+            ]
         }
     ],
     "columns": {
         "rpc": [
             "slug",
             "provider",
+            "actionButtons",
             "plan",
             "nodeType",
             "chain",
             "address",
             "accessPrice",
             "queryPrice",
+            "verifiedUptime",
+            "verifiedLatency",
+            "verifiedBlocksBehindAvg",
             "uptimeSla",
             "bandwidthSla",
             "blocksBehindSla",
+            "starred",
             "trial",
             "availableApis",
             "limitations",
             "securityImprovements",
             "monitoringAndAnalytics",
-            "regions",
-            "verifiedUptime",
-            "verifiedLatency",
-            "verifiedBlocksBehindAvg",
-            "starred",
-            "actionButtons"
+            "regions"
         ],
         "indexing": [
             "slug",
             "provider",
+            "actionButtons",
             "chain",
             "address",
             "technology",
             "plan",
-            "trial",
             "accessPrice",
             "queryPrice",
+            "verifiedUptime",
+            "verifiedLatency",
+            "verifiedBlocksBehindAvg",
             "uptimeSla",
             "bandwidthSla",
             "blocksBehindSla",
+            "supportSla",
+            "starred",
+            "trial",
             "availableApis",
             "limitations",
             "securityImprovements",
             "monitoringAndAnalytics",
             "additionalFeatures",
-            "regions",
-            "verifiedUptime",
-            "verifiedLatency",
-            "verifiedBlocksBehindAvg",
-            "starred",
-            "actionButtons",
-            "supportSla"
+            "regions"
         ],
         "oracle": [
             "slug",
