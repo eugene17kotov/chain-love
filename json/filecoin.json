@@ -1919,8 +1919,14 @@
         {
             "slug": "axelar-mainnet",
             "provider": "Axelar",
+            "actionButtons": [
+                "[Bridge](https://app.squidrouter.com/?chains=314)",
+                "[Filecoin Cross-Chain Docs](https://docs.filecoin.io/smart-contracts/advanced/cross-chain-bridges)"
+            ],
             "chain": "mainnet",
             "technology": "General Message Passing",
+            "txSpeedSla": null,
+            "throughputSla": null,
             "openSource": true,
             "starred": false,
             "availableApis": [
@@ -1940,8 +1946,6 @@
                 "USDC",
                 "USDT"
             ],
-            "txSpeedSla": null,
-            "throughputSla": null,
             "price": "[Gas Fee](https://support.edge.app/hc/en-us/articles/36422794159387-Axelar-AXL-Network-Fees)",
             "economicalSecurity": true,
             "economicalSecurityNote": "Proof-of-stake permissionless validator set controls Axelar security protocols",
@@ -1951,10 +1955,6 @@
             "decentralizationModel": "Decentralized",
             "sdk": [
                 "TypeScript SDK"
-            ],
-            "actionButtons": [
-                "[Bridge](https://app.squidrouter.com/?chains=314)",
-                "[Filecoin Cross-Chain Docs](https://docs.filecoin.io/smart-contracts/advanced/cross-chain-bridges)"
             ],
             "support": [
                 "Discord",
@@ -2063,8 +2063,14 @@
         {
             "slug": "celer-mainnet",
             "provider": "Celer",
+            "actionButtons": [
+                "[Celer cBridge App](https://cbridge.celer.network/314/1/USDC)",
+                "[Docs](https://cbridge-docs.celer.network/reference/faq)"
+            ],
             "chain": "mainnet",
             "technology": "Lock & Mint + Message Passing",
+            "txSpeedSla": null,
+            "throughputSla": null,
             "openSource": true,
             "starred": false,
             "availableApis": [
@@ -2086,8 +2092,6 @@
                 "USDC",
                 "USDT"
             ],
-            "txSpeedSla": null,
-            "throughputSla": null,
             "price": "Gas Fee",
             "economicalSecurity": true,
             "economicalSecurityNote": "[Optimistic-rollup + two-phase commit confirm pattern for cross-chain messages](https://cbridge-docs.celer.network/introduction/cbridge-security)",
@@ -2099,10 +2103,6 @@
             "decentralizationModel": "Decentralized",
             "sdk": [
                 "Node.JS"
-            ],
-            "actionButtons": [
-                "[Celer cBridge App](https://cbridge.celer.network/314/1/USDC)",
-                "[Docs](https://cbridge-docs.celer.network/reference/faq)"
             ],
             "support": [
                 "Contact us form"
@@ -2158,8 +2158,13 @@
         {
             "slug": "chainsafe-filecoin-bridge",
             "provider": "ChainSafe Systems",
+            "actionButtons": [
+                "[GitHub](https://github.com/ChainSafe/filecoindot)"
+            ],
             "chain": "testnet",
             "technology": "Substrate-Based Bridge",
+            "txSpeedSla": null,
+            "throughputSla": null,
             "openSource": true,
             "starred": false,
             "availableApis": [
@@ -2176,8 +2181,6 @@
                 "FIL",
                 "wFIL"
             ],
-            "txSpeedSla": null,
-            "throughputSla": null,
             "price": "[Gas fee](https://blog.chainsafe.io/transaction-fee-mechanism-design/)",
             "economicalSecurity": true,
             "economicalSecurityNote": "Open-source bridge/relayer framework built by ChainSafe; auditing for full Filecoin bridge not publicly final.",
@@ -2186,9 +2189,6 @@
             "sdk": [
                 "Rust",
                 "JavaScript"
-            ],
-            "actionButtons": [
-                "[GitHub](https://github.com/ChainSafe/filecoindot)"
             ],
             "support": [
                 "Discord",
@@ -2571,6 +2571,9 @@
         {
             "slug": "dune-mainnet",
             "provider": "Dune",
+            "actionButtons": [
+                "[Dashboard](http://dune.com/kalen/filecoin-daily-metrics)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "Transactions",
@@ -2586,14 +2589,14 @@
                 "Visualizations"
             ],
             "price": "$0/$75/$399/mo (monthly plan), $0/$65/$349/mo (yearly plan)",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](http://dune.com/kalen/filecoin-daily-metrics)"
-            ]
+            "starred": false
         },
         {
             "slug": "messari-mainnet",
             "provider": "Messari",
+            "actionButtons": [
+                "[Dashboard](https://messari.io/project/filecoin)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "Network Metrics",
@@ -2607,14 +2610,14 @@
                 "Dashboard"
             ],
             "price": "$0 (7-day free trial)/$29.99/mo/4K/year",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://messari.io/project/filecoin)"
-            ]
+            "starred": false
         },
         {
             "slug": "starboard-mainnet",
             "provider": "Starboard",
+            "actionButtons": [
+                "[Dashboard](https://dashboard.starboard.ventures/dashboard/analytics#capacityservices-storage-state)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "DeFI Deposits / Borrows",
@@ -2656,14 +2659,14 @@
                 "Hardhat plugin API"
             ],
             "price": "$0",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://dashboard.starboard.ventures/dashboard/analytics#capacityservices-storage-state)"
-            ]
+            "starred": false
         },
         {
             "slug": "statuspage-mainnet",
             "provider": "Status Page",
+            "actionButtons": [
+                "[Dashboard](https://filecoin.statuspage.io/)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "Uptime",
@@ -2677,14 +2680,14 @@
                 "Notifications"
             ],
             "price": "$0/$29/$99/$399/$1499/mo (public page), $79/$249/$599/$1499/mo (private page), up to $300 (audience-specific page)",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://filecoin.statuspage.io/)"
-            ]
+            "starred": false
         },
         {
             "slug": "fil-plus-datacap",
             "provider": "FilPlus DataCap Stats",
+            "actionButtons": [
+                "[Dashboard](https://datacapstats.io/about)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "DataCap Usage",
@@ -2700,14 +2703,14 @@
                 "REST API"
             ],
             "price": "$0",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://datacapstats.io/about)"
-            ]
+            "starred": false
         },
         {
             "slug": "cid-checker-mainnet",
             "provider": "CID Checker",
+            "actionButtons": [
+                "[Dashboard](https://filecoin.tools/)"
+            ],
             "chain": "mainnet",
             "dataSources": [
                 "Active Deals",
@@ -2718,14 +2721,14 @@
                 "REST API"
             ],
             "price": "$0",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://filecoin.tools/)"
-            ]
+            "starred": false
         },
         {
             "slug": "cid-checker-calibnet",
             "provider": "CID Checker",
+            "actionButtons": [
+                "[Dashboard](https://filecoin.tools/)"
+            ],
             "chain": "calibnet",
             "dataSources": [
                 "Active Deals",
@@ -2736,10 +2739,7 @@
                 "REST API"
             ],
             "price": "$0",
-            "starred": false,
-            "actionButtons": [
-                "[Dashboard](https://filecoin.tools/)"
-            ]
+            "starred": false
         }
     ],
     "wallet": [
@@ -4218,23 +4218,23 @@
         "bridge": [
             "slug",
             "provider",
+            "actionButtons",
             "chain",
             "technology",
+            "txSpeedSla",
+            "throughputSla",
             "openSource",
             "starred",
             "availableApis",
             "monitoringAndAnalytics",
             "additionalFeatures",
             "assetTypes",
-            "txSpeedSla",
-            "throughputSla",
             "price",
             "economicalSecurity",
             "economicalSecurityNote",
             "auditsPerformed",
             "decentralizationModel",
             "sdk",
-            "actionButtons",
             "support",
             "supportedChains"
         ],
@@ -4271,13 +4271,13 @@
         "analytic": [
             "slug",
             "provider",
+            "actionButtons",
             "chain",
             "dataSources",
             "hasDashboard",
             "availableApis",
             "price",
-            "starred",
-            "actionButtons"
+            "starred"
         ],
         "wallet": [
             "slug",
