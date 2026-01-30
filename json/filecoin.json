@@ -1,1855 +1,13 @@
 {
-    "rpc": [
-        {
-            "slug": "ankr-mainnet-enterprise",
-            "provider": "Ankr",
-            "actionButtons": [
-                "[Contact](https://meetings-eu1.hubspot.com/arsalan-evini?uuid=a58d6642-6a81-4b72-a3c8-f748831d3956)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-list/#filecoin)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "Custom",
-            "queryPrice": "custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush",
-                "Advanced Ankr API"
-            ],
-            "limitations": [
-                "custom limits"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Error tracing"
-            ],
-            "monitoringAndAnalytics": [
-                "Usage analytics",
-                "Custom monitoring",
-                "Engineering team support"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "ankr-mainnet-free",
-            "provider": "Ankr",
-            "actionButtons": [
-                "[Website](https://www.ankr.com/web3-api/chains-list/filecoin/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-list/#filecoin)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "free 200M API credits/mo",
-                "30 reqs/sec (node API)",
-                "30 reqs/min (advanced API)",
-                "1 project (personal API tokens)"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Method Limiting",
-                "Error tracing",
-                "Contract addresses protection"
-            ],
-            "monitoringAndAnalytics": [
-                "Usage analytics",
-                "Community support"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "ankr-mainnet-pay-as-you-go",
-            "provider": "Ankr",
-            "actionButtons": [
-                "[Buy](https://www.ankr.com/rpc/pricing/)",
-                "[Docs](https://www.ankr.com/docs/rpc-service/chains/chains-list/#filecoin)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "up to $10(payg plan)/$500-$3K(deal plan)",
-            "queryPrice": "$0.02(evm compatible API)/$0.05(solana API)/$0.07(beacon chains API)/$0.01(other API)/$0.07(advanced API) per 1K reqs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush",
-                "Advanced Ankr API"
-            ],
-            "limitations": [
-                "1.5K reqs/sec (node API)",
-                "1K reqs/min (advanced API)",
-                "3 projects (personal API tokens)"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Error tracing"
-            ],
-            "monitoringAndAnalytics": [
-                "Usage analytics",
-                "Custom monitoring",
-                "Support portal"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-calibnet-free",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Send requests](https://calibration.filecoin.chain.love/rpc/v0)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "100K requests per month"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-calibnet-pay-as-you-go",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0.5/1M CUs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-dedicated-fevm-archive-mainnet",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "FEVM Archive",
-            "chain": "mainnet",
-            "accessPrice": "$3.5K",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All methods"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "Asia",
-                "Europe",
-                "US"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-dedicated-full-archive-calibnet",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Full Archive",
-            "chain": "calibnet",
-            "accessPrice": "$800",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All methods"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "Asia",
-                "Europe",
-                "US"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-dedicated-full-archive-mainnet",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Full Archive",
-            "chain": "mainnet",
-            "accessPrice": "$5K",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All methods"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "Asia",
-                "Europe",
-                "US"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-dedicated-recent-state-calibnet",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$600",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All methods"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "Asia",
-                "Europe",
-                "US"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-dedicated-recent-state-mainnet",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$1K",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All methods"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "Asia",
-                "Europe",
-                "US"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-fevm-archive-mainnet-pay-as-you-go",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "FEVM Archive",
-            "chain": "mainnet",
-            "accessPrice": "$300",
-            "queryPrice": "$1.5/1M CUs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-full-archive-mainnet-pay-as-you-go",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Full Archive",
-            "chain": "mainnet",
-            "accessPrice": "$500",
-            "queryPrice": "$3/1M CUs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-mainnet-free",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Send requests](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "eth",
-                "web3",
-                "net",
-                "debug",
-                "trace"
-            ],
-            "limitations": [
-                "100K requests per month"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chain-love-mainnet-pay-as-you-go",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/rpc)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$1/1M CUs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": true,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "requests amount monitoring API"
-            ],
-            "regions": [
-                "US",
-                "Asia"
-            ],
-            "address": null
-        },
-        {
-            "slug": "chainup-cloud-calibnet-free",
-            "provider": "Chainup Cloud",
-            "actionButtons": [
-                "[Send requests](http://filecoin-calibration.chainup.net/rpc/v1)",
-                "[Docs](https://docs.chainupcloud.com/blockchain-api/filecoin/public-apis)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "Domain name protection"
-            ],
-            "monitoringAndAnalytics": null,
-            "regions": null,
-            "address": null
-        },
-        {
-            "slug": "chainup-cloud-mainnet-free",
-            "provider": "Chainup Cloud",
-            "actionButtons": [
-                "[Send requests](https://filecoin.chainup.net/rpc/v1)",
-                "[Docs](https://docs.chainupcloud.com/blockchain-api/filecoin/public-apis)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "Domain name protection"
-            ],
-            "monitoringAndAnalytics": null,
-            "regions": null,
-            "address": null
-        },
-        {
-            "slug": "drpc-calibnet-enterprise-recent-state",
-            "provider": "dRPC",
-            "actionButtons": [
-                "[Contact](https://drpc.org/pricing)",
-                "[Website](https://drpc.org/chainlist/filecoin-mainnet-rpc)",
-                "[Docs](https://drpc.org/docs)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "Custom",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "Unlimited RPS, up to 300M reqs/mo"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Method Limiting",
-                "Error tracing",
-                "Contract addresses protection"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "latency",
-                "CU analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "drpc-calibnet-pay-as-you-go-recent-state",
-            "provider": "dRPC",
-            "actionButtons": [
-                "[Buy](https://drpc.org/pricing)",
-                "[Website](https://drpc.org/chainlist/filecoin-mainnet-rpc)",
-                "[Docs](https://drpc.org/docs)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$6/1M requests",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "5K req/s, 20M CUs"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Method Limiting",
-                "Error tracing",
-                "Contract addresses protection"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "latency",
-                "CU analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "drpc-mainnet-enterprise-recent-state",
-            "provider": "dRPC",
-            "actionButtons": [
-                "[Contact](https://drpc.org/pricing)",
-                "[Website](https://drpc.org/chainlist/filecoin#filecoin)",
-                "[Docs](https://drpc.org/docs)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "Custom",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "Unlimited RPS, up to 300M reqs/mo"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Method Limiting",
-                "Error tracing",
-                "Contract addresses protection"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "latency",
-                "CU analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "drpc-mainnet-pay-as-you-go-recent-state",
-            "provider": "dRPC",
-            "actionButtons": [
-                "[Buy](https://drpc.org/pricing)",
-                "[Website](https://drpc.org/chainlist/filecoin-mainnet-rpc)",
-                "[Docs](https://drpc.org/docs)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$6/1M requests",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "5K req/s, 20M CUs"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting",
-                "Method Limiting",
-                "Error tracing",
-                "Contract addresses protection"
-            ],
-            "monitoringAndAnalytics": [
-                "per-method analytics",
-                "latency",
-                "CU analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "lava-network-calibnet-free",
-            "provider": "Lava Network",
-            "actionButtons": [
-                "[Register](https://accounts.lavanet.xyz/register)",
-                "[Docs](https://docs.lavanet.xyz/about)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "calibnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "Domain name protection"
-            ],
-            "monitoringAndAnalytics": null,
-            "regions": null,
-            "address": null
-        },
-        {
-            "slug": "lava-network-mainnet-free",
-            "provider": "Lava Network",
-            "actionButtons": [
-                "[Send requests](https://filecoin.lava.build/)",
-                "[Docs](https://docs.lavanet.xyz/about)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "Domain name protection"
-            ],
-            "monitoringAndAnalytics": null,
-            "regions": null,
-            "address": null
-        },
-        {
-            "slug": "nownodes-mainnet-enterprise",
-            "provider": "Nownodes",
-            "actionButtons": [
-                "[Contact](https://nownodes.io/pricing)",
-                "[Docs](https://nownodes.gitbook.io/fil-filecoin/)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "€500 (monthly plan), €5500 (yearly plan)",
-            "queryPrice": "€5/1M extra requests",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.95%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "100M req/mo, up to 100 API keys"
-            ],
-            "securityImprovements": [
-                "Domain name protection",
-                "Secure infrastructure with 24/7 monitoring",
-                "Private RPC nodes"
-            ],
-            "monitoringAndAnalytics": [
-                "per-key analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "nownodes-mainnet-free",
-            "provider": "Nownodes",
-            "actionButtons": [
-                "[Website](https://nownodes.io/nodes/filecoin-fil)",
-                "[Docs](https://nownodes.gitbook.io/fil-filecoin/)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "€0",
-            "queryPrice": "€0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.95%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "100K reqs/mo",
-                "1 month only",
-                "1 API key/15 RPS limit"
-            ],
-            "securityImprovements": [
-                "Domain name protection",
-                "Secure infrastructure with 24/7 monitoring"
-            ],
-            "monitoringAndAnalytics": [
-                "per-key analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "nownodes-mainnet-pay-as-you-go",
-            "provider": "Nownodes",
-            "actionButtons": [
-                "[Buy](https://nownodes.io/pricing)",
-                "[Docs](https://nownodes.gitbook.io/fil-filecoin/)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "€20/€200 (monthly plan), €220/€2200 (yearly plan)",
-            "queryPrice": "€50/€10/1M extra requests",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.95%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "All read methods + MPoolPush"
-            ],
-            "limitations": [
-                "1M/30M reqs/mo",
-                "up to 3/up to 25 API keys"
-            ],
-            "securityImprovements": [
-                "Domain name protection",
-                "Secure infrastructure with 24/7 monitoring"
-            ],
-            "monitoringAndAnalytics": [
-                "per-key analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-free-recent-state",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Website](https://getblock.io/)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Free",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.98%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "50K CU",
-                "20 RPS",
-                "2 Access Tokens"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-pay-as-you-go-recent-state",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Buy](https://getblock.io/pricing/)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
-            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.98%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "50M/220M/600M CU",
-                "100/300/500 RPS",
-                "10/25/50 Access Tokens"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-enterprise-recent-state",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Contact](https://account.getblock.io/sign-up)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "custom limits"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-dedicated-recent-state",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Contact](https://account.getblock.io/sign-up)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Recent-State",
-            "chain": "mainnet",
-            "accessPrice": "Up to $1K",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "custom limits",
-                "unlimited requests",
-                "unlimited rate limit"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-pay-as-you-go-full-archive",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Buy](https://getblock.io/pricing/)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Pay-as-you-go",
-            "nodeType": "Full Archive",
-            "chain": "mainnet",
-            "accessPrice": "$49/$199/$499/mo (monthly plan), $39/$159/$399 (yearly plan)",
-            "queryPrice": "$0.98/$0.9/$0.83 per 1M CU (monthly plan), $0.78/$0.72/$0.67 per 1M CU (yearly plan)",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.98%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "50M/220M/600M CU",
-                "100/300/500 RPS",
-                "10/25/50 Access Tokens"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-enterprise-full-archive",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Contact](https://account.getblock.io/sign-up)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Enterprise",
-            "nodeType": "Full Archive",
-            "chain": "mainnet",
-            "accessPrice": "Up to $999/mo (monthly plan), $799 (yearly plan)",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "custom limits"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        },
-        {
-            "slug": "getblock-mainnet-dedicated-full-archive",
-            "provider": "GetBlock",
-            "actionButtons": [
-                "[Contact](https://account.getblock.io/sign-up)",
-                "[Docs](https://docs.getblock.io/)"
-            ],
-            "plan": "Dedicated",
-            "nodeType": "Full Archive",
-            "chain": "mainnet",
-            "accessPrice": "Up to $1.5K",
-            "queryPrice": "Custom",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.99%",
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "Algorand Native API",
-                "Indexer API",
-                "Algo API",
-                "NFTs",
-                "WebSockets"
-            ],
-            "limitations": [
-                "custom limits",
-                "unlimited requests",
-                "unlimited rate limit"
-            ],
-            "securityImprovements": [
-                "Privacy Protected Relays",
-                "Transaction Sanitizers",
-                "Dedicated nodes with enterprise-grade security",
-                "Multi-region infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Real-time performance tracking",
-                "Advanced monitoring and analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "address": null
-        }
-    ],
-    "indexing": [
-        {
-            "slug": "chain-love-mainnet-free",
-            "provider": "Chain.Love",
-            "actionButtons": [
-                "[Buy](/graph)",
-                "[Docs](https://protofire-org.gitbook.io/proteus-shield-docs/blockchains/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": "0x0fd8fd1dc8162148cb9413062fe6c6b144335dbf",
-            "technology": "The Graph",
-            "plan": "Free",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": null,
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Domain name protection",
-                "Custom rate limiting"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage logs"
-            ],
-            "regions": [
-                "Japan"
-            ],
-            "additionalFeatures": null
-        },
-        {
-            "slug": "goldsky-mainnet-free",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Website](https://goldsky.com/chains/filecoin)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Free",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "20 RPC/10s",
-                "100K entities stored"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Email support",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "goldsky-mainnet-pay-as-you-go",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Buy](https://goldsky.com/pricing)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Pay-as-you-go",
-            "accessPrice": "$37/mo",
-            "queryPrice": "$40/1M entities stored",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": true,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "50 RPC/10s"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Email support",
-                "Custom indexing",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "goldsky-mainnet-enterprise",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Contact](https://goldsky.com/pricing)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Enterprise",
-            "accessPrice": "$37/mo",
-            "queryPrice": "$10/1M entities stored",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "1K+ RPC/10s"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Dedicated infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics",
-                "Custom dashboards"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Slack and Email support",
-                "Managed onboarding",
-                "White-label endpoints",
-                "Customized caching",
-                "4 hours SLA",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "goldsky-calibnet-free",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Website](https://goldsky.com/chains/filecoin)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "calibnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Free",
-            "accessPrice": "$0",
-            "queryPrice": "$0",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "20 RPC/10s",
-                "100K entities stored"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Email support",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "goldsky-calibnet-pay-as-you-go",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Buy](https://goldsky.com/pricing)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "calibnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Pay-as-you-go",
-            "accessPrice": "$37/mo",
-            "queryPrice": "$40/1M entities stored",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": true,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "50 RPC/10s"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Email support",
-                "Custom indexing",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "goldsky-calibnet-enterprise",
-            "provider": "Goldsky",
-            "actionButtons": [
-                "[Contact](https://goldsky.com/pricing)",
-                "[Docs](https://docs.goldsky.com/chains/filecoin)"
-            ],
-            "chain": "calibnet",
-            "address": null,
-            "technology": "The Graph",
-            "plan": "Enterprise",
-            "accessPrice": "$37/mo",
-            "queryPrice": "$10/1M entities stored",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": null,
-            "bandwidthSla": null,
-            "blocksBehindSla": null,
-            "supportSla": null,
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "GraphQL"
-            ],
-            "limitations": [
-                "1K+ RPC/10s"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Protection",
-                "Dedicated infrastructure"
-            ],
-            "monitoringAndAnalytics": [
-                "Subgraph logs",
-                "Usage analytics",
-                "Custom dashboards"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Real-time Mirror Pipelines",
-                "Slack and Email support",
-                "Managed onboarding",
-                "White-label endpoints",
-                "Customized caching",
-                "4 hours SLA",
-                "Subgraphs",
-                "Webhooks"
-            ]
-        },
-        {
-            "slug": "indexing-co-mainnet-free",
-            "provider": "The Indexing Company",
-            "actionButtons": [
-                "[Docs](https://docs.indexing.co/networks/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "Custom",
-            "plan": "Free",
-            "accessPrice": "$0",
-            "queryPrice": "Included",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.50%",
-            "bandwidthSla": null,
-            "blocksBehindSla": "2",
-            "supportSla": "Standard Support",
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "SQL",
-                "REST",
-                "Webhooks"
-            ],
-            "limitations": [
-                "Any network",
-                "Up to 10K filtered blocks"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Whitelisting",
-                "Private Endpoints",
-                "Secure API Keys",
-                "End-to-end encryption"
-            ],
-            "monitoringAndAnalytics": [
-                "Basic logs",
-                "Usage dashboard"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "PostgreSQL delivery",
-                "Webhook delivery",
-                "Auto-schema generation"
-            ]
-        },
-        {
-            "slug": "indexing-co-mainnet-pay-as-you-go",
-            "provider": "The Indexing Company",
-            "actionButtons": [
-                "[Docs](https://docs.indexing.co/networks/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "Custom",
-            "plan": "Pay-as-you-go",
-            "accessPrice": "Usage-based/Subscription-based",
-            "queryPrice": "Included",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.90%/99.95%",
-            "bandwidthSla": "Guaranteed",
-            "blocksBehindSla": "2/(1)",
-            "supportSla": "Standard Support/Dedicated Support",
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "SQL",
-                "REST",
-                "Webhooks"
-            ],
-            "limitations": [
-                "Up to 3/up to 10 networks",
-                "Wallet & ERC20 tracking",
-                "Multi-chain decoding (swaps, bridges, payments)",
-                "Custom transformations",
-                "Historical + real-time stream",
-                "Schema mapping design"
-            ],
-            "securityImprovements": [
-                "DDoS Protection",
-                "IP Whitelisting",
-                "Private Endpoints",
-                "Secure API Keys",
-                "End-to-end encryption"
-            ],
-            "monitoringAndAnalytics": [
-                "Pipeline logs",
-                "Delivery metrics",
-                "Logs",
-                "Analytics",
-                "Alerting & Monitoring"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Slack & Email support",
-                "PostgreSQL delivery",
-                "Webhook delivery",
-                "Dedicated Support Engineer",
-                "SLA-backed uptime",
-                "System Integration support"
-            ]
-        },
-        {
-            "slug": "indexing-co-mainnet-enterprise",
-            "provider": "The Indexing Company",
-            "actionButtons": [
-                "[Docs](https://docs.indexing.co/networks/filecoin)"
-            ],
-            "chain": "mainnet",
-            "address": null,
-            "technology": "Custom",
-            "plan": "Enterprise",
-            "accessPrice": "Custom",
-            "queryPrice": "Custom pricing & SLAs",
-            "verifiedUptime": null,
-            "verifiedLatency": null,
-            "verifiedBlocksBehindAvg": null,
-            "uptimeSla": "99.95%",
-            "bandwidthSla": "Guaranteed",
-            "blocksBehindSla": "0",
-            "supportSla": "24/7 priority support",
-            "starred": false,
-            "trial": false,
-            "availableApis": [
-                "SQL",
-                "REST",
-                "Webhooks"
-            ],
-            "limitations": [
-                "Unlimited networks",
-                "Unlimited transformations",
-                "Private Node & RPC ingestion",
-                "Custom delivery architecture"
-            ],
-            "securityImprovements": [
-                "Dedicated nodes",
-                "Private networking",
-                "DDoS Protection",
-                "IP Whitelisting",
-                "Private Endpoints",
-                "Secure API Keys",
-                "End-to-end encryption"
-            ],
-            "monitoringAndAnalytics": [
-                "Advanced monitoring",
-                "Uptime analytics"
-            ],
-            "regions": [
-                "Global"
-            ],
-            "additionalFeatures": [
-                "Hybrid cloud/bare metal delivery",
-                "Compliance-ready infra",
-                "Priority support"
-            ]
-        }
-    ],
     "oracle": [
         {
-            "slug": "pyth-mainnet",
+            "slug": "pyth-calibnet",
             "provider": "Pyth Network",
             "actionButtons": [
-                "[FIL/USD](https://www.pyth.network/price-feeds/crypto-fil-usd)",
+                "[FIL/USD](https://insights.pyth.network/price-feeds/Crypto.FIL%2FUSD)",
                 "[Docs](https://docs.pyth.network/)"
             ],
-            "chain": "mainnet",
+            "chain": "calibnet",
             "technology": "Pull Oracle",
             "starred": false,
             "availableApis": [
@@ -1879,13 +37,13 @@
             ]
         },
         {
-            "slug": "pyth-calibnet",
+            "slug": "pyth-mainnet",
             "provider": "Pyth Network",
             "actionButtons": [
-                "[FIL/USD](https://www.pyth.network/price-feeds/crypto-fil-usd)",
+                "[FIL/USD](https://insights.pyth.network/price-feeds/Crypto.FIL%2FUSD)",
                 "[Docs](https://docs.pyth.network/)"
             ],
-            "chain": "calibnet",
+            "chain": "mainnet",
             "technology": "Pull Oracle",
             "starred": false,
             "availableApis": [
@@ -2201,47 +359,61 @@
     ],
     "explorer": [
         {
-            "slug": "blockscout-mainnet",
-            "provider": "Blockscout",
+            "slug": "beryx-calibnet",
+            "provider": "Beryx",
             "actionButtons": [
-                "[Explore](https://filecoin-testnet.blockscout.com/)",
-                "[Docs](https://docs.blockscout.com/)"
+                "[Explore](https://beryx.io)"
             ],
-            "chain": "mainnet",
-            "technology": "Blockscout",
+            "chain": "calibnet",
+            "technology": "custom",
             "monitoringAndAnalytics": [
                 "Accounts",
-                "Transactions",
-                "Blocks",
-                "Tokens",
-                "Gas",
                 "Contracts",
-                "Logs",
-                "Events"
+                "Gas",
+                "Mempool"
             ],
-            "additionalFeatures": [
-                "Token Tracker",
-                "Network Metrics",
-                "NFT Tracking"
-            ],
+            "additionalFeatures": null,
             "availableApis": [
-                "REST API",
-                "GraphQL",
-                "RPC API",
-                "Eth RPC API",
                 "JSON-RPC"
             ],
-            "sdk": [
-                "TypeScript",
-                "Node.js"
-            ],
+            "sdk": null,
             "searchCapabilities": [
-                "Address",
-                "Transaction Hash",
+                "Height",
                 "Block",
-                "Token",
+                "Address",
                 "Message ID",
-                "Height"
+                "Event"
+            ],
+            "smartContractsVerifications": true,
+            "fullHistory": true,
+            "pricing": "Free",
+            "starred": false
+        },
+        {
+            "slug": "beryx-mainnet",
+            "provider": "Beryx",
+            "actionButtons": [
+                "[Explore](https://beryx.io)"
+            ],
+            "chain": "mainnet",
+            "technology": "custom",
+            "monitoringAndAnalytics": [
+                "Accounts",
+                "Contracts",
+                "Gas",
+                "Mempool"
+            ],
+            "additionalFeatures": null,
+            "availableApis": [
+                "JSON-RPC"
+            ],
+            "sdk": null,
+            "searchCapabilities": [
+                "Height",
+                "Block",
+                "Address",
+                "Message ID",
+                "Event"
             ],
             "smartContractsVerifications": true,
             "fullHistory": true,
@@ -2290,6 +462,112 @@
                 "Token",
                 "Message ID",
                 "Height"
+            ],
+            "smartContractsVerifications": true,
+            "fullHistory": true,
+            "pricing": "Free",
+            "starred": false
+        },
+        {
+            "slug": "blockscout-mainnet",
+            "provider": "Blockscout",
+            "actionButtons": [
+                "[Explore](https://filecoin-testnet.blockscout.com/)",
+                "[Docs](https://docs.blockscout.com/)"
+            ],
+            "chain": "mainnet",
+            "technology": "Blockscout",
+            "monitoringAndAnalytics": [
+                "Accounts",
+                "Transactions",
+                "Blocks",
+                "Tokens",
+                "Gas",
+                "Contracts",
+                "Logs",
+                "Events"
+            ],
+            "additionalFeatures": [
+                "Token Tracker",
+                "Network Metrics",
+                "NFT Tracking"
+            ],
+            "availableApis": [
+                "REST API",
+                "GraphQL",
+                "RPC API",
+                "Eth RPC API",
+                "JSON-RPC"
+            ],
+            "sdk": [
+                "TypeScript",
+                "Node.js"
+            ],
+            "searchCapabilities": [
+                "Address",
+                "Transaction Hash",
+                "Block",
+                "Token",
+                "Message ID",
+                "Height"
+            ],
+            "smartContractsVerifications": true,
+            "fullHistory": true,
+            "pricing": "Free",
+            "starred": false
+        },
+        {
+            "slug": "filfox-calibnet",
+            "provider": "FilFox",
+            "actionButtons": [
+                "[Explore](https://calibration.filfox.info/en)"
+            ],
+            "chain": "calibnet",
+            "technology": "custom",
+            "monitoringAndAnalytics": [
+                "Storage Power",
+                "Sector Pledge",
+                "Gas",
+                "Storage Providers"
+            ],
+            "additionalFeatures": null,
+            "availableApis": [
+                "REST"
+            ],
+            "sdk": null,
+            "searchCapabilities": [
+                "Height",
+                "Address",
+                "Message ID"
+            ],
+            "smartContractsVerifications": true,
+            "fullHistory": true,
+            "pricing": "Free",
+            "starred": false
+        },
+        {
+            "slug": "filfox-mainnet",
+            "provider": "FilFox",
+            "actionButtons": [
+                "[Explore](https://filfox.info/en)"
+            ],
+            "chain": "mainnet",
+            "technology": "custom",
+            "monitoringAndAnalytics": [
+                "Storage Power",
+                "Sector Pledge",
+                "Gas",
+                "Storage Providers"
+            ],
+            "additionalFeatures": null,
+            "availableApis": [
+                "REST"
+            ],
+            "sdk": null,
+            "searchCapabilities": [
+                "Height",
+                "Address",
+                "Message ID"
             ],
             "smartContractsVerifications": true,
             "fullHistory": true,
@@ -2354,126 +632,6 @@
                 "Block",
                 "Miner ID",
                 "FNS"
-            ],
-            "smartContractsVerifications": true,
-            "fullHistory": true,
-            "pricing": "Free",
-            "starred": false
-        },
-        {
-            "slug": "filfox-calibnet",
-            "provider": "FilFox",
-            "actionButtons": [
-                "[Explore](https://calibration.filfox.info)"
-            ],
-            "chain": "calibnet",
-            "technology": "custom",
-            "monitoringAndAnalytics": [
-                "Storage Power",
-                "Sector Pledge",
-                "Gas",
-                "Storage Providers"
-            ],
-            "additionalFeatures": null,
-            "availableApis": [
-                "REST"
-            ],
-            "sdk": null,
-            "searchCapabilities": [
-                "Height",
-                "Address",
-                "Message ID"
-            ],
-            "smartContractsVerifications": true,
-            "fullHistory": true,
-            "pricing": "Free",
-            "starred": false
-        },
-        {
-            "slug": "filfox-mainnet",
-            "provider": "FilFox",
-            "actionButtons": [
-                "[Explore](https://filfox.info)"
-            ],
-            "chain": "mainnet",
-            "technology": "custom",
-            "monitoringAndAnalytics": [
-                "Storage Power",
-                "Sector Pledge",
-                "Gas",
-                "Storage Providers"
-            ],
-            "additionalFeatures": null,
-            "availableApis": [
-                "REST"
-            ],
-            "sdk": null,
-            "searchCapabilities": [
-                "Height",
-                "Address",
-                "Message ID"
-            ],
-            "smartContractsVerifications": true,
-            "fullHistory": true,
-            "pricing": "Free",
-            "starred": false
-        },
-        {
-            "slug": "beryx-calibnet",
-            "provider": "Beryx",
-            "actionButtons": [
-                "[Explore](https://beryx.io)"
-            ],
-            "chain": "calibnet",
-            "technology": "custom",
-            "monitoringAndAnalytics": [
-                "Accounts",
-                "Contracts",
-                "Gas",
-                "Mempool"
-            ],
-            "additionalFeatures": null,
-            "availableApis": [
-                "JSON-RPC"
-            ],
-            "sdk": null,
-            "searchCapabilities": [
-                "Height",
-                "Block",
-                "Address",
-                "Message ID",
-                "Event"
-            ],
-            "smartContractsVerifications": true,
-            "fullHistory": true,
-            "pricing": "Free",
-            "starred": false
-        },
-        {
-            "slug": "beryx-mainnet",
-            "provider": "Beryx",
-            "actionButtons": [
-                "[Explore](https://beryx.io)"
-            ],
-            "chain": "mainnet",
-            "technology": "custom",
-            "monitoringAndAnalytics": [
-                "Accounts",
-                "Contracts",
-                "Gas",
-                "Mempool"
-            ],
-            "additionalFeatures": null,
-            "availableApis": [
-                "JSON-RPC"
-            ],
-            "sdk": null,
-            "searchCapabilities": [
-                "Height",
-                "Block",
-                "Address",
-                "Message ID",
-                "Event"
             ],
             "smartContractsVerifications": true,
             "fullHistory": true,
@@ -2569,10 +727,50 @@
     ],
     "analytic": [
         {
+            "slug": "cid-checker-calibnet",
+            "provider": "CID Checker",
+            "actionButtons": [
+                "[Dashboard](https://filecoin.tools/)"
+            ],
+            "chain": "calibnet",
+            "dataSources": [
+                "Active Deals",
+                "Verified Deals"
+            ],
+            "hasDashboard": false,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "starred": false
+        },
+        {
+            "slug": "cid-checker-mainnet",
+            "provider": "CID Checker",
+            "actionButtons": [
+                "[Dashboard](https://filecoin.tools/)"
+            ],
+            "chain": "mainnet",
+            "dataSources": [
+                "Active Deals",
+                "Verified Deals"
+            ],
+            "hasDashboard": false,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "starred": false
+        },
+        {
             "slug": "dune-mainnet",
             "provider": "Dune",
             "actionButtons": [
-                "[Dashboard](http://dune.com/kalen/filecoin-daily-metrics)"
+                "[Dashboard](https://dune.com/kalen/filecoin-daily-metrics)"
             ],
             "chain": "mainnet",
             "dataSources": [
@@ -2589,6 +787,33 @@
                 "Visualizations"
             ],
             "price": "$0/$75/$399/mo (monthly plan), $0/$65/$349/mo (yearly plan)",
+            "planName": null,
+            "planType": "Tiered",
+            "starred": false
+        },
+        {
+            "slug": "fil-plus-datacap",
+            "provider": "FilPlus DataCap Stats",
+            "actionButtons": [
+                "[Dashboard](https://datacapstats.io/about)"
+            ],
+            "chain": "mainnet",
+            "dataSources": [
+                "DataCap Usage",
+                "DataCap Allocators",
+                "DataCap Clients",
+                "Storage Providers",
+                "Retrieval Success Rate",
+                "Storage provider compliance",
+                "Storage Provider Audit"
+            ],
+            "hasDashboard": true,
+            "availableApis": [
+                "REST API"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "starred": false
         },
         {
@@ -2609,7 +834,9 @@
                 "API Access",
                 "Dashboard"
             ],
-            "price": "$0 (7-day free trial)/$29.99/mo/4K/year",
+            "price": "$0/$4000/year",
+            "planName": null,
+            "planType": "Tiered",
             "starred": false
         },
         {
@@ -2659,6 +886,8 @@
                 "Hardhat plugin API"
             ],
             "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "starred": false
         },
         {
@@ -2680,237 +909,17 @@
                 "Notifications"
             ],
             "price": "$0/$29/$99/$399/$1499/mo (public page), $79/$249/$599/$1499/mo (private page), up to $300 (audience-specific page)",
-            "starred": false
-        },
-        {
-            "slug": "fil-plus-datacap",
-            "provider": "FilPlus DataCap Stats",
-            "actionButtons": [
-                "[Dashboard](https://datacapstats.io/about)"
-            ],
-            "chain": "mainnet",
-            "dataSources": [
-                "DataCap Usage",
-                "DataCap Allocators",
-                "DataCap Clients",
-                "Storage Providers",
-                "Retrieval Success Rate",
-                "Storage provider compliance",
-                "Storage Provider Audit"
-            ],
-            "hasDashboard": true,
-            "availableApis": [
-                "REST API"
-            ],
-            "price": "$0",
-            "starred": false
-        },
-        {
-            "slug": "cid-checker-mainnet",
-            "provider": "CID Checker",
-            "actionButtons": [
-                "[Dashboard](https://filecoin.tools/)"
-            ],
-            "chain": "mainnet",
-            "dataSources": [
-                "Active Deals",
-                "Verified Deals"
-            ],
-            "hasDashboard": false,
-            "availableApis": [
-                "REST API"
-            ],
-            "price": "$0",
-            "starred": false
-        },
-        {
-            "slug": "cid-checker-calibnet",
-            "provider": "CID Checker",
-            "actionButtons": [
-                "[Dashboard](https://filecoin.tools/)"
-            ],
-            "chain": "calibnet",
-            "dataSources": [
-                "Active Deals",
-                "Verified Deals"
-            ],
-            "hasDashboard": false,
-            "availableApis": [
-                "REST API"
-            ],
-            "price": "$0",
+            "planName": null,
+            "planType": "Tiered",
             "starred": false
         }
     ],
     "wallet": [
         {
-            "slug": "glif",
-            "provider": "Glif",
+            "slug": "ascoin-wallet",
+            "provider": "AScoin Wallet",
             "actionButtons": [
-                "[Website](https://www.glif.io/en/wallet)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Web"
-            ],
-            "custodial": true,
-            "mfa": false,
-            "msig": true,
-            "hardware": true,
-            "keyExport": false,
-            "native": true,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "slack"
-            ],
-            "audit": [
-                "Audited (self claim)"
-            ],
-            "languages": [
-                "EN",
-                "CH"
-            ],
-            "starred": true
-        },
-        {
-            "slug": "metamask",
-            "provider": "Metamask",
-            "actionButtons": [
-                "[Website](https://metamask.io/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Chrome",
-                "Firefox",
-                "Edge",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "ERC-721",
-                "ERC-1155"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "email",
-                "helpdesk"
-            ],
-            "audit": [
-                "October 2024 by ConsenSys Diligence"
-            ],
-            "languages": [
-                "EN",
-                "ES",
-                "FR",
-                "RU",
-                "ZH",
-                "JA"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "gnosis-safe",
-            "provider": "SAFE by Protofire",
-            "actionButtons": [
-                "[Online Wallet](https://safe.filecoin.io/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Web",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": true,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "ERC-721"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "email"
-            ],
-            "audit": [
-                "Contracts by Ackee Blockchain in April 2023"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": true
-        },
-        {
-            "slug": "kraken-wallet",
-            "provider": "Kraken Wallet",
-            "actionButtons": [
-                "[Website](https://www.kraken.com/wallet)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": false,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "SPL"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "email"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN",
-                "FR",
-                "ES",
-                "DE",
-                "ZH",
-                "NL",
-                "IT",
-                "PL",
-                "PT"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "backpack",
-            "provider": "Backpack",
-            "actionButtons": [
-                "[Website](https://backpack.exchange/)"
+                "[Website](https://www.ascoin.pro/)"
             ],
             "openSource": false,
             "supportedPlatforms": [
@@ -2920,163 +929,10 @@
             ],
             "custodial": false,
             "mfa": true,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "SPL",
-                "ERC-721"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "discord",
-                "chatbot"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "stackup",
-            "provider": "Stackup",
-            "actionButtons": [
-                "[Doc](https://docs.stackup.fi/docs/stackup-essentials-guide)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": false,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "EIP-4337"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "email"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "dapp-pocket",
-            "provider": "Dapp Pocket",
-            "actionButtons": [
-                "[Website](https://www.dapppocket.io/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": false,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "ERC-721"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "ronin-wallet",
-            "provider": "Ronin Wallet",
-            "actionButtons": [
-                "[Website](https://wallet.roninchain.com/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
             "msig": true,
-            "hardware": true,
+            "hardware": false,
             "keyExport": true,
             "native": true,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "RRC-20",
-                "RRC-721"
-            ],
-            "staking": true,
-            "price": "Gas fee",
-            "support": [
-                "email",
-                "discord",
-                "chatbot",
-                "x"
-            ],
-            "audit": [
-                "Third-party audits"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "kryptogo-wallet",
-            "provider": "Kryptogo Wallet",
-            "actionButtons": [
-                "[Website](https://www.kryptogo.com/products/wallet)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": false,
-            "keyExport": false,
-            "native": false,
             "evm": true,
             "tendermint": false,
             "tokensSupport": [
@@ -3085,99 +941,36 @@
                 "BEP-20",
                 "ERC-721",
                 "SPL",
-                "TRC-20"
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
             ],
-            "staking": false,
+            "staking": true,
             "price": "Paid",
             "support": [
                 "email",
-                "telegram",
-                "discord",
-                "x"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "ultimate",
-            "provider": "Jupiter",
-            "actionButtons": [
-                "[Website](https://ultimate.app/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": false,
-            "keyExport": false,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
                 "x",
-                "email"
+                "discord",
+                "telegram"
             ],
             "audit": [
-                "not availale"
+                "audit by third parties"
             ],
             "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "gem-wallet",
-            "provider": "Gem Wallet",
-            "actionButtons": [
-                "[Website](https://gemwallet.com/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": false,
-            "keyExport": false,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "chat on website"
-            ],
-            "audit": [
-                "open to anyone"
-            ],
-            "languages": [
-                "EN"
+                "EN",
+                "RU",
+                "JA",
+                "KO",
+                "VI",
+                "PT",
+                "AR",
+                "ZH",
+                "FR",
+                "ES",
+                "KO",
+                "ID",
+                "UK",
+                "TI"
             ],
             "starred": false
         },
@@ -3222,24 +1015,144 @@
             "starred": false
         },
         {
-            "slug": "saakuru-wallet",
-            "provider": "Saakuru Wallet",
+            "slug": "backpack",
+            "provider": "Backpack",
             "actionButtons": [
-                "[Website](https://www.saakuru.com/app)"
+                "[Website](https://backpack.exchange/)"
             ],
             "openSource": false,
             "supportedPlatforms": [
+                "Browser Extension",
                 "iOS",
                 "Android"
             ],
             "custodial": false,
-            "mfa": false,
+            "mfa": true,
             "msig": false,
-            "hardware": false,
-            "keyExport": false,
-            "native": true,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
             "evm": true,
             "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "SPL",
+                "ERC-721"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "discord",
+                "chatbot"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "binance-wallet",
+            "provider": "Binance Wallet",
+            "actionButtons": [
+                "[Website](https://www.binance.com/en/binancewallet)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": true,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20",
+                "ERC-404",
+                "ERC-1155"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "24/7 live chat"
+            ],
+            "audit": [
+                "audit by third parties"
+            ],
+            "languages": [
+                "EN",
+                "FR",
+                "ES",
+                "DE",
+                "ZH",
+                "NL",
+                "IT",
+                "PL",
+                "PT",
+                "JA",
+                "IT",
+                "ID",
+                "HI",
+                "NL",
+                "CS",
+                "CA",
+                "BG",
+                "AR",
+                "VI",
+                "TR",
+                "RU",
+                "FA",
+                "KO",
+                "SV",
+                "HA",
+                "YO",
+                "UR",
+                "HR",
+                "MY",
+                "SI",
+                "LO",
+                "DA",
+                "HU",
+                "RO",
+                "FIL"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "bybit-wallet",
+            "provider": "Bybit Wallet",
+            "actionButtons": [
+                "[Website](https://www.bybit.com/en/help-center/topic-list/web-3)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": true,
             "tokensSupport": [
                 "ERC-20",
                 "BEP-2",
@@ -3253,34 +1166,56 @@
             "staking": true,
             "price": "$0",
             "support": [
-                "email"
+                "email",
+                "24/7 live chat",
+                "x",
+                "discord",
+                "telegram"
             ],
             "audit": [
-                "not availale"
+                "audit by third parties"
             ],
             "languages": [
                 "EN",
-                "ES",
                 "FR",
-                "ID",
-                "TL",
-                "VI",
+                "ES",
+                "DE",
                 "ZH",
+                "NL",
+                "IT",
+                "PL",
+                "PT",
                 "JA",
-                "TH",
-                "DE"
+                "IT",
+                "ID",
+                "HI",
+                "NL",
+                "CS",
+                "CA",
+                "BG",
+                "AR",
+                "VI",
+                "TR",
+                "RU",
+                "FA",
+                "KO",
+                "SV",
+                "HA",
+                "YO",
+                "UR",
+                "HR",
+                "MY"
             ],
             "starred": false
         },
         {
-            "slug": "nufi-wallet",
-            "provider": "Nufi Wallet",
+            "slug": "clave-wallet",
+            "provider": "Clave Wallet",
             "actionButtons": [
-                "[Website](https://nu.fi/)"
+                "[Website](https://www.getclave.com/)"
             ],
-            "openSource": false,
+            "openSource": true,
             "supportedPlatforms": [
-                "Browser Extension",
                 "iOS",
                 "Android"
             ],
@@ -3288,28 +1223,23 @@
             "mfa": true,
             "msig": false,
             "hardware": true,
-            "keyExport": false,
+            "keyExport": true,
             "native": false,
             "evm": true,
             "tendermint": false,
             "tokensSupport": [
                 "ERC-20",
-                "BEP-2",
-                "BEP-20",
                 "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
+                "ERC-1155",
+                "BEP-20"
             ],
-            "staking": false,
-            "price": "Paid",
+            "staking": true,
+            "price": "$0",
             "support": [
                 "email"
             ],
             "audit": [
-                "audit internally",
-                "third parties"
+                "audit by third parties"
             ],
             "languages": [
                 "EN"
@@ -3389,492 +1319,6 @@
             "starred": false
         },
         {
-            "slug": "clave-wallet",
-            "provider": "Clave Wallet",
-            "actionButtons": [
-                "[Website](https://www.getclave.com/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "ERC-721",
-                "ERC-1155",
-                "BEP-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "walletverse",
-            "provider": "Wallet Verse",
-            "actionButtons": [
-                "[Website](https://walletverse.io/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": true,
-            "keyExport": false,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "telegram",
-                "discord",
-                "x",
-                "youtube"
-            ],
-            "audit": [
-                "not availale"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "iron-wallet",
-            "provider": "Iron Wallet",
-            "actionButtons": [
-                "[Website](https://ironwallet.io/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "email",
-                "in-app chat",
-                "discord",
-                "x"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "binance-wallet",
-            "provider": "Binance Wallet",
-            "actionButtons": [
-                "[Website](https://www.binance.com/en/web3wallet)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": false,
-            "keyExport": true,
-            "native": true,
-            "evm": true,
-            "tendermint": true,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20",
-                "ERC-404",
-                "ERC-1155"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "24/7 live chat"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN",
-                "FR",
-                "ES",
-                "DE",
-                "ZH",
-                "NL",
-                "IT",
-                "PL",
-                "PT",
-                "JA",
-                "IT",
-                "ID",
-                "HI",
-                "NL",
-                "CS",
-                "CA",
-                "BG",
-                "AR",
-                "VI",
-                "TR",
-                "RU",
-                "FA",
-                "KO",
-                "SV",
-                "HA",
-                "YO",
-                "UR",
-                "HR",
-                "MY",
-                "SI",
-                "LO",
-                "DA",
-                "HU",
-                "RO",
-                "FIL"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "cwallet",
-            "provider": "Cwallet",
-            "actionButtons": [
-                "[Website](https://cwallet.com/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": true,
-            "hardware": true,
-            "keyExport": true,
-            "native": true,
-            "evm": true,
-            "tendermint": true,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "24/7 live chat",
-                "x",
-                "discord",
-                "telegram",
-                "webform"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN",
-                "24 Others"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "ascoin-wallet",
-            "provider": "AScoin Wallet",
-            "actionButtons": [
-                "[Website](https://www.ascoin.pro/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": true,
-            "hardware": false,
-            "keyExport": true,
-            "native": true,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": true,
-            "price": "Paid",
-            "support": [
-                "email",
-                "x",
-                "discord",
-                "telegram"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN",
-                "RU",
-                "JA",
-                "KO",
-                "VI",
-                "PT",
-                "AR",
-                "ZH",
-                "FR",
-                "ES",
-                "KO",
-                "ID",
-                "UK",
-                "TI"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "ownbit",
-            "provider": "Ownbit",
-            "actionButtons": [
-                "[Website](https://ownbit.io/en/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": true,
-            "hardware": false,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": true,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "x",
-                "telegram"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN",
-                "ES",
-                "NL",
-                "FL"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "wigwam",
-            "provider": "Wigwam",
-            "actionButtons": [
-                "[Website](https://wigwam.app/)"
-            ],
-            "openSource": true,
-            "supportedPlatforms": [
-                "iOS",
-                "Android",
-                "Chrome",
-                "Desktop"
-            ],
-            "custodial": false,
-            "mfa": false,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": false,
-            "evm": true,
-            "tendermint": false,
-            "tokensSupport": [
-                "ERC-20",
-                "ERC-721"
-            ],
-            "staking": false,
-            "price": "$0",
-            "support": [
-                "[email](mailto:info@wigwam.app)",
-                "[help guides](https://wigwam.app/help)"
-            ],
-            "audit": [
-                "January 2024 by Halborn"
-            ],
-            "languages": [
-                "EN",
-                "ES",
-                "FR",
-                "IT",
-                "JA",
-                "KO",
-                "RU",
-                "UK",
-                "ZH"
-            ],
-            "starred": false
-        },
-        {
-            "slug": "bybit-wallet",
-            "provider": "Bybit Wallet",
-            "actionButtons": [
-                "[Website](https://www.bybit.com/web3/)"
-            ],
-            "openSource": false,
-            "supportedPlatforms": [
-                "Browser Extension",
-                "iOS",
-                "Android"
-            ],
-            "custodial": false,
-            "mfa": true,
-            "msig": false,
-            "hardware": true,
-            "keyExport": true,
-            "native": true,
-            "evm": true,
-            "tendermint": true,
-            "tokensSupport": [
-                "ERC-20",
-                "BEP-2",
-                "BEP-20",
-                "ERC-721",
-                "SPL",
-                "TRC-20",
-                "TRC-10",
-                "BRC-20"
-            ],
-            "staking": true,
-            "price": "$0",
-            "support": [
-                "email",
-                "24/7 live chat",
-                "x",
-                "discord",
-                "telegram"
-            ],
-            "audit": [
-                "audit by third parties"
-            ],
-            "languages": [
-                "EN",
-                "FR",
-                "ES",
-                "DE",
-                "ZH",
-                "NL",
-                "IT",
-                "PL",
-                "PT",
-                "JA",
-                "IT",
-                "ID",
-                "HI",
-                "NL",
-                "CS",
-                "CA",
-                "BG",
-                "AR",
-                "VI",
-                "TR",
-                "RU",
-                "FA",
-                "KO",
-                "SV",
-                "HA",
-                "YO",
-                "UR",
-                "HR",
-                "MY"
-            ],
-            "starred": false
-        },
-        {
             "slug": "coinomi-wallet",
             "provider": "Coinomi Wallet",
             "actionButtons": [
@@ -3948,6 +1392,335 @@
             "starred": false
         },
         {
+            "slug": "cwallet",
+            "provider": "Cwallet",
+            "actionButtons": [
+                "[Website](https://cwallet.com/)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": true,
+            "hardware": true,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": true,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "24/7 live chat",
+                "x",
+                "discord",
+                "telegram",
+                "webform"
+            ],
+            "audit": [
+                "audit by third parties"
+            ],
+            "languages": [
+                "EN",
+                "24 Others"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "dapp-pocket",
+            "provider": "Dapp Pocket",
+            "actionButtons": [
+                "[Website](https://www.dapppocket.io/)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "gem-wallet",
+            "provider": "Gem Wallet",
+            "actionButtons": [
+                "[Website](https://gemwallet.com/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": false,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "chat on website"
+            ],
+            "audit": [
+                "open to anyone"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "glif",
+            "provider": "Glif",
+            "actionButtons": [
+                "[Website](https://www.glif.io/en/wallet)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Web"
+            ],
+            "custodial": true,
+            "mfa": false,
+            "msig": true,
+            "hardware": true,
+            "keyExport": false,
+            "native": true,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "slack"
+            ],
+            "audit": [
+                "Audited (self claim)"
+            ],
+            "languages": [
+                "EN",
+                "CH"
+            ],
+            "starred": true
+        },
+        {
+            "slug": "gnosis-safe",
+            "provider": "SAFE by Protofire",
+            "actionButtons": [
+                "[Online Wallet](https://safe.filecoin.io/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Web",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": true,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "Contracts by Ackee Blockchain in April 2023"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": true
+        },
+        {
+            "slug": "iron-wallet",
+            "provider": "Iron Wallet",
+            "actionButtons": [
+                "[Website](https://ironwallet.io/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email",
+                "in-app chat",
+                "discord",
+                "x"
+            ],
+            "audit": [
+                "audit by third parties"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "kraken-wallet",
+            "provider": "Kraken Wallet",
+            "actionButtons": [
+                "[Website](https://www.kraken.com/wallet)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "SPL"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN",
+                "FR",
+                "ES",
+                "DE",
+                "ZH",
+                "NL",
+                "IT",
+                "PL",
+                "PT"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "kryptogo-wallet",
+            "provider": "Kryptogo Wallet",
+            "actionButtons": [
+                "[Website](https://www.kryptogo.com/products/wallet)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": false,
+            "keyExport": false,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20"
+            ],
+            "staking": false,
+            "price": "Paid",
+            "support": [
+                "email",
+                "telegram",
+                "discord",
+                "x"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
             "slug": "math-wallet",
             "provider": "Math Wallet",
             "actionButtons": [
@@ -4016,67 +1789,641 @@
                 "YO"
             ],
             "starred": false
+        },
+        {
+            "slug": "metamask",
+            "provider": "Metamask",
+            "actionButtons": [
+                "[Website](https://metamask.io/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Web",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721",
+                "ERC-1155"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email",
+                "helpdesk"
+            ],
+            "audit": [
+                "October 2024 by ConsenSys Diligence"
+            ],
+            "languages": [
+                "EN",
+                "ES",
+                "FR",
+                "RU",
+                "ZH",
+                "JA"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "nufi-wallet",
+            "provider": "Nufi Wallet",
+            "actionButtons": [
+                "[Website](https://nu.fi/)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": false,
+            "hardware": true,
+            "keyExport": false,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": false,
+            "price": "Paid",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "audit internally",
+                "third parties"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "ownbit",
+            "provider": "Ownbit",
+            "actionButtons": [
+                "[Website](https://ownbit.io/en/)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": true,
+            "msig": true,
+            "hardware": false,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": true,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "x",
+                "telegram"
+            ],
+            "audit": [
+                "audit by third parties"
+            ],
+            "languages": [
+                "EN",
+                "ES",
+                "NL",
+                "FL"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "ronin-wallet",
+            "provider": "Ronin Wallet",
+            "actionButtons": [
+                "[Website](https://wallet.roninchain.com/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": true,
+            "hardware": true,
+            "keyExport": true,
+            "native": true,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "RRC-20",
+                "RRC-721"
+            ],
+            "staking": true,
+            "price": "Gas fee",
+            "support": [
+                "email",
+                "discord",
+                "chatbot",
+                "x"
+            ],
+            "audit": [
+                "Third-party audits"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "saakuru-wallet",
+            "provider": "Saakuru Wallet",
+            "actionButtons": [
+                "[Website](https://www.saakuru.com/app)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": false,
+            "native": true,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN",
+                "ES",
+                "FR",
+                "ID",
+                "TL",
+                "VI",
+                "ZH",
+                "JA",
+                "TH",
+                "DE"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "stackup",
+            "provider": "Stackup",
+            "actionButtons": [
+                "[Doc](https://docs.stackup.fi/docs/stackup-essentials-guide)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "Browser Extension",
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": false,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "EIP-4337"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "email"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "walletverse",
+            "provider": "Wallet Verse",
+            "actionButtons": [
+                "[Website](https://walletverse.io/)"
+            ],
+            "openSource": false,
+            "supportedPlatforms": [
+                "iOS",
+                "Android"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": true,
+            "keyExport": false,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "BEP-2",
+                "BEP-20",
+                "ERC-721",
+                "SPL",
+                "TRC-20",
+                "TRC-10",
+                "BRC-20"
+            ],
+            "staking": true,
+            "price": "$0",
+            "support": [
+                "email",
+                "telegram",
+                "discord",
+                "x",
+                "youtube"
+            ],
+            "audit": [
+                "not availale"
+            ],
+            "languages": [
+                "EN"
+            ],
+            "starred": false
+        },
+        {
+            "slug": "wigwam",
+            "provider": "Wigwam",
+            "actionButtons": [
+                "[Website](https://wigwam.app/)"
+            ],
+            "openSource": true,
+            "supportedPlatforms": [
+                "iOS",
+                "Android",
+                "Web",
+                "Desktop"
+            ],
+            "custodial": false,
+            "mfa": false,
+            "msig": false,
+            "hardware": true,
+            "keyExport": true,
+            "native": false,
+            "evm": true,
+            "tendermint": false,
+            "tokensSupport": [
+                "ERC-20",
+                "ERC-721"
+            ],
+            "staking": false,
+            "price": "$0",
+            "support": [
+                "[email](mailto:info@wigwam.app)",
+                "[help guides](https://wigwam.app/help)"
+            ],
+            "audit": [
+                "January 2024 by Halborn"
+            ],
+            "languages": [
+                "EN",
+                "ES",
+                "FR",
+                "IT",
+                "JA",
+                "KO",
+                "RU",
+                "UK",
+                "ZH"
+            ],
+            "starred": false
         }
     ],
     "devTool": [
         {
-            "slug": "fvm-powergate-textile",
-            "provider": "FVM Powergate Textile",
+            "slug": "4everland-free",
+            "provider": "4everland",
             "actionButtons": [
-                "[Docs](https://docs.textile.io/powergate/)",
-                "[GitHub](https://github.com/textileio/powergate)"
+                "[Website](https://www.4everland.org/)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Storage",
+                "IPFS",
+                "Decentralized"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides developers with a suite of tools and infrastructure to build, deploy, and host decentralized applications",
+            "starred": false
+        },
+        {
+            "slug": "4everland-pay-as-you-go",
+            "provider": "4everland",
+            "actionButtons": [
+                "[Docs](https://docs.4everland.org/get-started/billing-and-pricing/pricing-model)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Storage",
+                "IPFS",
+                "Decentralized"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides developers with a suite of tools and infrastructure to build, deploy, and host decentralized applications",
+            "starred": false
+        },
+        {
+            "slug": "agent-kit",
+            "provider": "Coinbase",
+            "actionButtons": [
+                "[Website](https://docs.cdp.coinbase.com/agent-kit/welcome)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "AI agents"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "Toolkit enabling AI agents to interact with blockchain networks with secure wallet management and comprehensive onchain capabilities",
+            "starred": false
+        },
+        {
+            "slug": "ape-worx-evm-trace",
+            "provider": "ApeWorx EVM Trace",
+            "actionButtons": [
+                "[Website](https://github.com/ApeWorX/evm-trace)"
+            ],
+            "toolType": "Testing and Debugging",
+            "tag": [
+                "EVM Trace",
+                "Ethereum Debugging",
+                "Smart Contract Debugging",
+                "Transaction Tracing"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "Python-dependent developer tool designed for debugging and analyzing Ethereum Virtual Machine transactions and smart contract execution",
+            "starred": false
+        },
+        {
+            "slug": "blockdaemon-sdk-enterprise",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Contact](https://www.blockdaemon.com/api/pricing)"
             ],
             "toolType": "SDK",
             "tag": [
-                "SDK"
+                "Web3 Gateway",
+                "Institutional Grade Blockchain",
+                "Scalable Blockchain Solutions",
+                "Multi-Protocol Support"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides an extensive toolkit, including REST and RPC APIs and SDKs, for developers to build Web3 applications and integrate with various blockchain networks",
+            "starred": false
+        },
+        {
+            "slug": "blockdaemon-sdk-free",
+            "provider": "Blockdaemon",
+            "actionButtons": [
+                "[Docs](https://docs.blockdaemon.com/reference/staking-sdk)"
+            ],
+            "toolType": "SDK",
+            "tag": [
+                "Web3 Gateway",
+                "Institutional Grade Blockchain",
+                "Scalable Blockchain Solutions",
+                "Multi-Protocol Support"
             ],
             "price": "$0",
-            "description": "Textile Powergate SDK for building on Filecoin",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides an extensive toolkit, including REST and RPC APIs and SDKs, for developers to build Web3 applications and integrate with various blockchain networks",
             "starred": false
         },
         {
-            "slug": "tableland-db",
-            "provider": "Tableland DB",
+            "slug": "blockdaemon-sdk-pay-as-you-go",
+            "provider": "Blockdaemon",
             "actionButtons": [
-                "[Website](https://tableland.xyz/)"
+                "[Contact](https://www.blockdaemon.com/api/pricing)"
             ],
-            "toolType": "Web3-native, decentralized, relational database built on the SQLite engine",
+            "toolType": "SDK",
             "tag": [
-                "Decentralized database",
-                "SQL database",
-                "SQLite"
+                "Web3 Gateway",
+                "Institutional Grade Blockchain",
+                "Scalable Blockchain Solutions",
+                "Multi-Protocol Support"
             ],
             "price": "Custom",
-            "description": "It allows developers to store, manage, and query structured data for decentralized applications using familiar SQL statements, with access control and ownership tied to the blockchain",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides an extensive toolkit, including REST and RPC APIs and SDKs, for developers to build Web3 applications and integrate with various blockchain networks",
             "starred": false
         },
         {
-            "slug": "orbit-db",
-            "provider": "Orbit DB",
+            "slug": "ceramic-sdk",
+            "provider": "Ceramic Network",
             "actionButtons": [
-                "[Website](https://orbitdb.org/)"
+                "[Website](https://github.com/ceramicnetwork/ceramic-sdk)",
+                "[Docs](https://developers.ceramic.network/docs/protocol/ceramic-one/usage/installation)"
             ],
-            "toolType": "Peer-to-peer database or a decentralized database management system",
+            "toolType": "SDK",
             "tag": [
-                "Decentralized database"
+                "Decentralized Data",
+                "Composable Data",
+                "Data Network",
+                "Decentralized Identifiers"
             ],
-            "price": "Custom",
-            "description": "It provides a serverless, distributed, peer-to-peer database for building decentralized applications",
+            "price": "$0",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It allows developers to integrate database-like functionality for dynamic, user-controlled content, moving beyond static file storage or limited on-chain data",
             "starred": false
         },
         {
-            "slug": "thread-db",
-            "provider": "Thread DB",
+            "slug": "connectkit",
+            "provider": "ConnectKit",
             "actionButtons": [
-                "[Doc](https://docs.textile.io/threads/)"
+                "[Website](https://family.co/docs/connectkit)"
             ],
-            "toolType": "Decentralized, peer-to-peer database",
+            "toolType": "Library",
             "tag": [
-                "Decentralized database",
-                "p2p database"
+                "Wallet Connect",
+                "Web3 wallet",
+                "Typescript",
+                "React Component Library"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "React component library for Web3 frontend developers that simplifies the process of connecting a user's cryptocurrency wallet to a decentralized application",
+            "starred": false
+        },
+        {
+            "slug": "cookbook-dev",
+            "provider": "Cookbook.dev",
+            "actionButtons": [
+                "[Website](https://www.cookbook.dev)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Smart Contracts",
+                "Registry",
+                "Solidity"
             ],
             "price": "Custom",
-            "description": "It is a multi-party,decentralized database solution built on IPFS and Libp2p that provides an alternative architecture for data on the web",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It offers an open-source smart contract registry and an AI-powered ecosystem to help developers research, build and deploy smart contracts quickly and efficiently",
+            "starred": false
+        },
+        {
+            "slug": "dapprovals-enterprise",
+            "provider": "dApprovals",
+            "actionButtons": [
+                "[Website](https://dapproval.com/)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Code Review Approvals",
+                "Deployment Approvals",
+                "CI/CD Approvals",
+                "Infrastructure Approvals"
+            ],
+            "price": "Custom",
+            "planName": "Custom",
+            "planType": "Enterprise",
+            "description": "Provides services for managing and securing Web3 transaction approvals",
+            "starred": false
+        },
+        {
+            "slug": "dapprovals-pay-as-you-go",
+            "provider": "dApprovals",
+            "actionButtons": [
+                "[Website](https://dapproval.com/)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Code Review Approvals",
+                "Deployment Approvals",
+                "CI/CD Approvals",
+                "Infrastructure Approvals"
+            ],
+            "price": "£12/£18",
+            "planName": "Basic/Standard",
+            "planType": "Tiered",
+            "description": "Provides services for managing and securing Web3 transaction approvals",
+            "starred": false
+        },
+        {
+            "slug": "datacurve-enterprise",
+            "provider": "DataCurve",
+            "actionButtons": [
+                "[Website](https://datacurve.io/)"
+            ],
+            "toolType": "AI",
+            "tag": [
+                "AI platform",
+                "Customer data platform",
+                "Data analytics",
+                "CRM integration"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "Enterprise",
+            "description": "Provides high-quality training and evaluation data focused on coding and software engineering for large language models, operating as an AI data engine for major AI organizations",
+            "starred": false
+        },
+        {
+            "slug": "datacurve-pay-as-you-go",
+            "provider": "DataCurve",
+            "actionButtons": [
+                "[Website](https://datacurve.io/)"
+            ],
+            "toolType": "AI",
+            "tag": [
+                "AI platform",
+                "Customer data platform",
+                "Data analytics",
+                "CRM integration"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "Tiered",
+            "description": "Provides high-quality training and evaluation data focused on coding and software engineering for large language models, operating as an AI data engine for major AI organizations",
+            "starred": false
+        },
+        {
+            "slug": "ethersplay",
+            "provider": "Crytic",
+            "actionButtons": [
+                "[Website](https://github.com/crytic/ethersplay)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Disassembler",
+                "Smart Contracts",
+                "Reverse Engineering"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It operates as a plugin within the Binary Ninja reverse engineering platform",
             "starred": false
         },
         {
@@ -4090,287 +2437,9 @@
                 "Tool"
             ],
             "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "description": "Filecoin signing libraries and tools for interacting with Filecoin actors",
-            "starred": false
-        },
-        {
-            "slug": "fvm-assemblyscript-sdk",
-            "provider": "FVM AssemblyScript SDK",
-            "actionButtons": [
-                "[GitHub](https://github.com/Zondax/fvm-as-sdk)"
-            ],
-            "toolType": "SDK",
-            "tag": [
-                "SDK"
-            ],
-            "price": "$0",
-            "description": "AssemblyScript SDK for Filecoin Virtual Machine smart contract development",
-            "starred": false
-        },
-        {
-            "slug": "fvm-tinygo-sdk",
-            "provider": "FVM Tinygo SDK",
-            "actionButtons": [
-                "[GitHub](https://github.com/ipfs-force-community/go-fvm-sdk)"
-            ],
-            "toolType": "FVM Go SDK",
-            "tag": [
-                "SDK"
-            ],
-            "price": "$0",
-            "description": "Go SDK for Filecoin Virtual Machine smart contract development",
-            "starred": false
-        },
-        {
-            "slug": "fvm-go-graphsplit",
-            "provider": "FVM Go Graphsplit",
-            "actionButtons": [
-                "[GitHub](https://github.com/filedrive-team/go-graphsplit)"
-            ],
-            "toolType": "Data preparation",
-            "tag": [
-                "Data preparation"
-            ],
-            "price": "$0",
-            "description": "GraphSplit tool for preparing large datasets for Filecoin",
-            "starred": false
-        },
-        {
-            "slug": "fvm-beryx-address-converter",
-            "provider": "FVM Beryx Address Converter",
-            "actionButtons": [
-                "[Website](https://beryx.io/address_converter)"
-            ],
-            "toolType": "Address Converter",
-            "tag": [
-                "Tool"
-            ],
-            "price": "$0",
-            "description": "Utility to convert Filecoin addresses",
-            "starred": false
-        },
-        {
-            "slug": "mosaia-free",
-            "provider": "Mosaia",
-            "actionButtons": [
-                "[Website](https://www.mosaia.io/)"
-            ],
-            "toolType": "AI agent development and generative AI application tools",
-            "tag": [
-                "Building and deploying AI agents and teams"
-            ],
-            "price": "$0",
-            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
-            "starred": false
-        },
-        {
-            "slug": "mosaia-pay-as-you-go",
-            "provider": "Mosaia",
-            "actionButtons": [
-                "[Website](https://www.mosaia.io/)"
-            ],
-            "toolType": "AI agent development and generative AI application tools",
-            "tag": [
-                "Building and deploying AI agents and teams"
-            ],
-            "price": "$19/$349/mo",
-            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
-            "starred": false
-        },
-        {
-            "slug": "mosaia-enterprise",
-            "provider": "Mosaia",
-            "actionButtons": [
-                "[Website](https://www.mosaia.io/)"
-            ],
-            "toolType": "AI agent development and generative AI application tools",
-            "tag": [
-                "Building and deploying AI agents and teams"
-            ],
-            "price": "Custom",
-            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
-            "starred": false
-        },
-        {
-            "slug": "triangle",
-            "provider": "Triangle",
-            "actionButtons": [
-                "[Website](https://www.triangleplatform.com/)"
-            ],
-            "toolType": "Blockchain wallet infrastructure APIs",
-            "tag": [
-                "Web3 Developer tools",
-                "Wallet Infrastructure API",
-                "Blockchain API",
-                "Embed Web3 Experiences"
-            ],
-            "price": "Custom",
-            "description": "It is a Web3 wallet infrastructure APIs and dedicated blockchain nodes for developers, aiming to simplify blockchain technology integration into applications",
-            "starred": false
-        },
-        {
-            "slug": "ziion-linux-distro",
-            "provider": "Ziion Linux distro",
-            "actionButtons": [
-                "[Website](https://www.ziion.org/)"
-            ],
-            "toolType": "Blockchain development and security testing",
-            "tag": [
-                "Security Testing",
-                "Vulnerability Assessment",
-                "Cybersecurity",
-                "Virtual Machine"
-            ],
-            "price": "Custom",
-            "description": "Functions as a specialized, pre-configured provider of developer and security tools for the blockchain and Web3 ecosystem",
-            "starred": false
-        },
-        {
-            "slug": "dapprovals-pay-as-you-go",
-            "provider": "dApprovals",
-            "actionButtons": [
-                "[Website](https://dapproval.com/)"
-            ],
-            "toolType": "Transaction Approval Management and Active Risk Mitigation",
-            "tag": [
-                "Code Review Approvals",
-                "Deployment Approvals",
-                "CI/CD Approvals",
-                "Infrastructure Approvals"
-            ],
-            "price": "£12/£18",
-            "description": "Provides services for managing and securing Web3 transaction approvals",
-            "starred": false
-        },
-        {
-            "slug": "dapprovals-enterprise",
-            "provider": "dApprovals",
-            "actionButtons": [
-                "[Website](https://dapproval.com/)"
-            ],
-            "toolType": "Transaction Approval Management and Active Risk Mitigation",
-            "tag": [
-                "Code Review Approvals",
-                "Deployment Approvals",
-                "CI/CD Approvals",
-                "Infrastructure Approvals"
-            ],
-            "price": "Custom",
-            "description": "Provides services for managing and securing Web3 transaction approvals",
-            "starred": false
-        },
-        {
-            "slug": "connectkit",
-            "provider": "ConnectKit",
-            "actionButtons": [
-                "[Website](https://family.co/docs/connectkit)"
-            ],
-            "toolType": "Web3 wallet connection library/toolkit",
-            "tag": [
-                "Wallet Connect",
-                "Web3 wallet",
-                "Typescript",
-                "React Component Library"
-            ],
-            "price": "Custom",
-            "description": "React component library for Web3 frontend developers that simplifies the process of connecting a user's cryptocurrency wallet to a decentralized application",
-            "starred": false
-        },
-        {
-            "slug": "ape-worx-evm-trace",
-            "provider": "ApeWorx EVM Trace",
-            "actionButtons": [
-                "[Github](https://github.com/ApeWorX/evm-trace)"
-            ],
-            "toolType": "Debugging tool and Solidity tool",
-            "tag": [
-                "EVM Trace",
-                "Ethereum Debugging",
-                "Smart Contract Debugging",
-                "Transaction Tracing"
-            ],
-            "price": "Custom",
-            "description": "Python-dependent developer tool designed for debugging and analyzing Ethereum Virtual Machine transactions and smart contract execution",
-            "starred": false
-        },
-        {
-            "slug": "datacurve-pay-as-you-go",
-            "provider": "DataCurve",
-            "actionButtons": [
-                "[Website](https://datacurve.io/)"
-            ],
-            "toolType": "AI training and evaluation data",
-            "tag": [
-                "AI platform",
-                "Customer data platform",
-                "Data analytics",
-                "CRM integration"
-            ],
-            "price": "Custom",
-            "description": "Provides high-quality training and evaluation data focused on coding and software engineering for large language models, operating as an AI data engine for major AI organizations",
-            "starred": false
-        },
-        {
-            "slug": "datacurve-enterprise",
-            "provider": "DataCurve",
-            "actionButtons": [
-                "[Website](https://datacurve.io/)"
-            ],
-            "toolType": "AI training and evaluation data",
-            "tag": [
-                "AI platform",
-                "Customer data platform",
-                "Data analytics",
-                "CRM integration"
-            ],
-            "price": "Custom",
-            "description": "Provides high-quality training and evaluation data focused on coding and software engineering for large language models, operating as an AI data engine for major AI organizations",
-            "starred": false
-        },
-        {
-            "slug": "whal3s",
-            "provider": "Whal3s",
-            "actionButtons": [
-                "[Website](https://whal3s.xyz/)"
-            ],
-            "toolType": "Web3 developer tools",
-            "tag": [
-                "Web3 developer platform",
-                "Token-gated experience",
-                "Blockchain integration"
-            ],
-            "price": "Custom",
-            "description": "It helps developers and agencies integrate blockchain features into their existing applications or websites quickly and efficiently, without needing their own server infrastructure for usage data",
-            "starred": false
-        },
-        {
-            "slug": "intellij-solidity-plugin",
-            "provider": "Intellij Solidity Plugin",
-            "actionButtons": [
-                "[Website](https://github.com/intellij-solidity/intellij-solidity)"
-            ],
-            "toolType": "Integrated Development Environment extension",
-            "tag": [
-                "IntelliJ",
-                "JetBrains",
-                "IDE Plugin"
-            ],
-            "price": "Custom",
-            "description": "It provides a comprehensive suite of developer tools that deeply integrate the writing, testing, debugging, and deployment of Solidity smart contracts directly within the JetBrains integrated development environment",
-            "starred": false
-        },
-        {
-            "slug": "agent-kit",
-            "provider": "Coinbase",
-            "actionButtons": [
-                "[Website](https://docs.cdp.coinbase.com/agent-kit/welcome)"
-            ],
-            "toolType": "Tool",
-            "tag": [
-                "AI agents"
-            ],
-            "price": "Custom",
-            "description": "Toolkit enabling AI agents to interact with blockchain networks with secure wallet management and comprehensive onchain capabilities",
             "starred": false
         },
         {
@@ -4384,8 +2453,91 @@
                 "Rust",
                 "Framework"
             ],
-            "price": "Custom",
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "description": "Solidity-native smart contract development toolkit written in Rust offering blazing-fast compilation and testing",
+            "starred": false
+        },
+        {
+            "slug": "fvm-assemblyscript-sdk",
+            "provider": "FVM AssemblyScript SDK",
+            "actionButtons": [
+                "[GitHub](https://github.com/Zondax/fvm-as-sdk)"
+            ],
+            "toolType": "SDK",
+            "tag": [
+                "SDK"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "AssemblyScript SDK for Filecoin Virtual Machine smart contract development",
+            "starred": false
+        },
+        {
+            "slug": "fvm-beryx-address-converter",
+            "provider": "FVM Beryx Address Converter",
+            "actionButtons": [
+                "[Website](https://beryx.io/address_converter)"
+            ],
+            "toolType": "Address Converter",
+            "tag": [
+                "Tool"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "Utility to convert Filecoin addresses",
+            "starred": false
+        },
+        {
+            "slug": "fvm-go-graphsplit",
+            "provider": "FVM Go Graphsplit",
+            "actionButtons": [
+                "[GitHub](https://github.com/filedrive-team/go-graphsplit)"
+            ],
+            "toolType": "Data preparation",
+            "tag": [
+                "Data preparation"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "GraphSplit tool for preparing large datasets for Filecoin",
+            "starred": false
+        },
+        {
+            "slug": "fvm-powergate-textile",
+            "provider": "FVM Powergate Textile",
+            "actionButtons": [
+                "[Docs](https://docs.textile.io/powergate/)",
+                "[GitHub](https://github.com/textileio/powergate)"
+            ],
+            "toolType": "SDK",
+            "tag": [
+                "SDK"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "Textile Powergate SDK for building on Filecoin",
+            "starred": false
+        },
+        {
+            "slug": "fvm-tinygo-sdk",
+            "provider": "FVM Tinygo SDK",
+            "actionButtons": [
+                "[GitHub](https://github.com/ipfs-force-community/go-fvm-sdk)"
+            ],
+            "toolType": "FVM Go SDK",
+            "tag": [
+                "SDK"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "Go SDK for Filecoin Virtual Machine smart contract development",
             "starred": false
         },
         {
@@ -4399,8 +2551,28 @@
                 "Local blockchain",
                 "Testing"
             ],
-            "price": "Custom",
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "description": "Personal Ethereum blockchain for local development enabling fast testing of contracts in a controlled environment",
+            "starred": false
+        },
+        {
+            "slug": "intellij-solidity-plugin",
+            "provider": "Intellij Solidity Plugin",
+            "actionButtons": [
+                "[Website](https://github.com/intellij-solidity/intellij-solidity)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "IntelliJ",
+                "JetBrains",
+                "IDE Plugin"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "It provides a comprehensive suite of developer tools that deeply integrate the writing, testing, debugging, and deployment of Solidity smart contracts directly within the JetBrains integrated development environment",
             "starred": false
         },
         {
@@ -4415,7 +2587,9 @@
                 "JavaScript",
                 "Storage"
             ],
-            "price": "Custom",
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "description": "Distributed file storage protocol commonly used by Polygon dApps",
             "starred": false
         },
@@ -4423,7 +2597,7 @@
             "slug": "magic",
             "provider": "Magic",
             "actionButtons": [
-                "[Docs](https://magic.link/)"
+                "[Website](https://magic.link/)"
             ],
             "toolType": "SDK",
             "tag": [
@@ -4431,8 +2605,92 @@
                 "Social logins",
                 "Wallet SDK"
             ],
-            "price": "Custom",
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
             "description": "Web3 onboarding SDK for creating non-custodial wallets using familiar Web2 logins eliminating seed phrases",
+            "starred": false
+        },
+        {
+            "slug": "mosaia-enterprise",
+            "provider": "Mosaia",
+            "actionButtons": [
+                "[Contact](https://calendly.com/cyril-mosaia)"
+            ],
+            "toolType": "AI",
+            "tag": [
+                "Building and deploying AI agents and teams"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "Enterprise",
+            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
+            "starred": false
+        },
+        {
+            "slug": "mosaia-free",
+            "provider": "Mosaia",
+            "actionButtons": [
+                "[Website](https://www.mosaia.io/)"
+            ],
+            "toolType": "AI",
+            "tag": [
+                "Building and deploying AI agents and teams"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
+            "starred": false
+        },
+        {
+            "slug": "mosaia-pay-as-you-go",
+            "provider": "Mosaia",
+            "actionButtons": [
+                "[Buy](https://www.mosaia.io/pricing)"
+            ],
+            "toolType": "AI",
+            "tag": [
+                "Building and deploying AI agents and teams"
+            ],
+            "price": "$19/$349/mo",
+            "planName": "Explorer/Pro",
+            "planType": "Tiered",
+            "description": "It is a platform for developers and non-developers to build, deploy, and manage autonomous AI agents that connect with external applications and data sources",
+            "starred": false
+        },
+        {
+            "slug": "multicall3",
+            "provider": "Multicall3",
+            "actionButtons": [
+                "[Website](https://www.multicall3.com)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Contract Calls",
+                "Aggregation",
+                "RPC"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It enables the batching of multiple calls to other smart contracts into a single transaction",
+            "starred": false
+        },
+        {
+            "slug": "orbit-db",
+            "provider": "Orbit DB",
+            "actionButtons": [
+                "[Website](https://orbitdb.org/)"
+            ],
+            "toolType": "Database",
+            "tag": [
+                "Decentralized database"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "Free",
+            "description": "It provides a serverless, distributed, peer-to-peer database for building decentralized applications",
             "starred": false
         },
         {
@@ -4441,7 +2699,7 @@
             "actionButtons": [
                 "[Website](https://www.pimlico.io/)"
             ],
-            "toolType": "Tool",
+            "toolType": "Development platform",
             "tag": [
                 "Smart Accounts",
                 "Bundlers",
@@ -4449,39 +2707,9 @@
                 "ERC-4337"
             ],
             "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
             "description": "Infrastructure platform for building smart accounts with bundlers, verifying paymasters, and ERC-20 paymasters for gas sponsorship and enhanced transaction flows",
-            "starred": false
-        },
-        {
-            "slug": "portal-free",
-            "provider": "Portal",
-            "actionButtons": [
-                "[Portal](https://portal.polygon.technology/)",
-                "[Doc](https://www.portalhq.io/)"
-            ],
-            "toolType": "Tool",
-            "tag": [
-                "Web",
-                "Developer Portal"
-            ],
-            "price": "$0",
-            "description": "Main developer portal with docs, faucet, explorer hub, and access to Amoy testnet, RPC endpoints",
-            "starred": false
-        },
-        {
-            "slug": "portal-pay-as-you-go",
-            "provider": "Portal",
-            "actionButtons": [
-                "[Portal](https://portal.polygon.technology/)",
-                "[Doc](https://www.portalhq.io/)"
-            ],
-            "toolType": "Tool",
-            "tag": [
-                "Web",
-                "Developer Portal"
-            ],
-            "price": "$499",
-            "description": "Main developer portal with docs, faucet, explorer hub, and access to Amoy testnet, RPC endpoints",
             "starred": false
         },
         {
@@ -4489,22 +2717,60 @@
             "provider": "Portal",
             "actionButtons": [
                 "[Portal](https://portal.polygon.technology/)",
-                "[Doc](https://www.portalhq.io/)"
+                "[Docs](https://www.portalhq.io/)"
             ],
-            "toolType": "Tool",
+            "toolType": "Development platform",
             "tag": [
                 "Web",
                 "Developer Portal"
             ],
             "price": "Custom",
-            "description": "Main developer portal with docs, faucet, explorer hub, and access to Amoy testnet, RPC endpoints",
+            "planName": null,
+            "planType": "TBD",
+            "description": "Main developer portal with docs, faucet, explorer hub and access to Amoy testnet, RPC endpoints",
+            "starred": false
+        },
+        {
+            "slug": "portal-free",
+            "provider": "Portal",
+            "actionButtons": [
+                "[Portal](https://portal.polygon.technology/)",
+                "[Docs](https://www.portalhq.io/)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Web",
+                "Developer Portal"
+            ],
+            "price": "$0",
+            "planName": null,
+            "planType": "TBD",
+            "description": "Main developer portal with docs, faucet, explorer hub and access to Amoy testnet, RPC endpoints",
+            "starred": false
+        },
+        {
+            "slug": "portal-pay-as-you-go",
+            "provider": "Portal",
+            "actionButtons": [
+                "[Portal](https://portal.polygon.technology/)",
+                "[Docs](https://www.portalhq.io/)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Web",
+                "Developer Portal"
+            ],
+            "price": "$499",
+            "planName": null,
+            "planType": "TBD",
+            "description": "Main developer portal with docs, faucet, explorer hub and access to Amoy testnet, RPC endpoints",
             "starred": false
         },
         {
             "slug": "reown",
             "provider": "Reown",
             "actionButtons": [
-                "[Websites](https://reown.com/)",
+                "[Website](https://reown.com/)",
                 "[Docs](https://docs.reown.com/)"
             ],
             "toolType": "Tool",
@@ -4515,7 +2781,47 @@
                 "Gas Sponsorship"
             ],
             "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
             "description": "Tools to build user-friendly smart wallets with social login, paymaster configuration for gas fees sponsorship and chain abstraction for seamless UX",
+            "starred": false
+        },
+        {
+            "slug": "rubic-sdk",
+            "provider": "Rubic-SDK",
+            "actionButtons": [
+                "[Docs](https://docs.rubic.finance/integrate-sdk/sdk-overview)"
+            ],
+            "toolType": "SDK",
+            "tag": [
+                "Web3 developer tools",
+                "Cross-chain swap API",
+                "Blockchain interoperability",
+                "DEX aggregator SDK",
+                "Crypto swap widget"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It offers a SDK, a customizable widget and an API to allow other decentralized applications, wallets or websites to integrate its cross-chain swap functionality directly into their own platforms",
+            "starred": false
+        },
+        {
+            "slug": "spheron-network",
+            "provider": "Spheron Network",
+            "actionButtons": [
+                "[Website](https://www.spheron.network)"
+            ],
+            "toolType": "Development platform",
+            "tag": [
+                "Web3 Infrastructure",
+                "Deployment",
+                "Scaling"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It provides various tools and SDKs to help developers integrate with its decentralized infrastructure, manage deployments and utilize its compute resources",
             "starred": false
         },
         {
@@ -4524,7 +2830,7 @@
             "actionButtons": [
                 "[Website](https://console.optimism.io/)"
             ],
-            "toolType": "Web3 development platform",
+            "toolType": "Tool",
             "tag": [
                 "Superchain",
                 "OP Stack",
@@ -4532,156 +2838,124 @@
                 "Layer 2"
             ],
             "price": "Custom",
-            "description": "It helps developers build, test, launch, and grow decentralized applications within the Superchain ecosystem",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It helps developers build, test, launch and grow decentralized applications within the Superchain ecosystem",
             "starred": false
         },
         {
-            "slug": "walletconnect",
-            "provider": "WalletConnect",
+            "slug": "tableland",
+            "provider": "Tableland",
             "actionButtons": [
-                "[Docs](https://docs.walletconnect.com/)"
+                "[Website](https://tableland.xyz/)"
             ],
-            "toolType": "SDK",
+            "toolType": "Database",
             "tag": [
-                "Wallet Integration",
-                "Protocol"
+                "Web3 Database",
+                "Decentralized Database",
+                "Blockchain Database",
+                "SQL on Chain",
+                "Onchain Data"
             ],
             "price": "Custom",
-            "description": "Open-source protocol that securely connects mobile wallets to decentralized applications for transaction signing  and secure interaction in blockchain apps\"",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It allows developers to store and manage structured, relational data on-chain across various EVM-compatible blockchains, including Ethereum, Polygon and Optimism",
             "starred": false
         },
         {
-            "slug": "4everland-free",
-            "provider": "4everland",
+            "slug": "tableland-db",
+            "provider": "Tableland",
             "actionButtons": [
-                "[Docs](https://docs.4everland.org/)"
+                "[Website](https://tableland.xyz/)"
             ],
-            "toolType": "Decentralized cloud computing infrastructure",
+            "toolType": "Database",
             "tag": [
-                "Storage",
-                "IPFS",
-                "Decentralized"
+                "Decentralized database",
+                "SQL database",
+                "SQLite"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It allows developers to store, manage, and query structured data for decentralized applications using familiar SQL statements, with access control and ownership tied to the blockchain",
+            "starred": false
+        },
+        {
+            "slug": "thread-db",
+            "provider": "Thread DB",
+            "actionButtons": [
+                "[Docs](https://docs.textile.io/threads/)"
+            ],
+            "toolType": "Database",
+            "tag": [
+                "Decentralized database",
+                "P2P database"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It is a multi-party,decentralized database solution built on IPFS and Libp2p that provides an alternative architecture for data on the web",
+            "starred": false
+        },
+        {
+            "slug": "triangle",
+            "provider": "Triangle",
+            "actionButtons": [
+                "[Website](https://www.triangleplatform.com/)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Web3 Developer tools",
+                "Wallet Infrastructure API",
+                "Blockchain API",
+                "Embed Web3 Experiences"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It is a Web3 wallet infrastructure APIs and dedicated blockchain nodes for developers, aiming to simplify blockchain technology integration into applications",
+            "starred": false
+        },
+        {
+            "slug": "whal3s",
+            "provider": "Whal3s",
+            "actionButtons": [
+                "[Website](https://whal3s.xyz/)"
+            ],
+            "toolType": "Tool",
+            "tag": [
+                "Web3 developer platform",
+                "Token-gated experience",
+                "Blockchain integration"
+            ],
+            "price": "Custom",
+            "planName": null,
+            "planType": "TBD",
+            "description": "It helps developers and agencies integrate blockchain features into their existing applications or websites quickly and efficiently, without needing their own server infrastructure for usage data",
+            "starred": false
+        },
+        {
+            "slug": "ziion-linux-distro",
+            "provider": "Ziion Linux distro",
+            "actionButtons": [
+                "[Website](https://www.ziion.org/)"
+            ],
+            "toolType": "Security and compliance",
+            "tag": [
+                "Security Testing",
+                "Vulnerability Assessment",
+                "Cybersecurity",
+                "Virtual Machine"
             ],
             "price": "$0",
-            "description": "It provides developers with a suite of tools and infrastructure to build, deploy, and host decentralized applications",
-            "starred": false
-        },
-        {
-            "slug": "4everland-pay-as-you-go",
-            "provider": "4everland",
-            "actionButtons": [
-                "[Docs](https://docs.4everland.org/)"
-            ],
-            "toolType": "Decentralized cloud computing infrastructure",
-            "tag": [
-                "Storage",
-                "IPFS",
-                "Decentralized"
-            ],
-            "price": "Custom",
-            "description": "It provides developers with a suite of tools and infrastructure to build, deploy, and host decentralized applications",
-            "starred": false
-        },
-        {
-            "slug": "cookbook-dev",
-            "provider": "Cookbook.dev",
-            "actionButtons": [
-                "[Docs](https://www.cookbook.dev)"
-            ],
-            "toolType": "Registry of Solidity primitives, libraries and smart contracts for cross-chain usage",
-            "tag": [
-                "Smart Contracts",
-                "Registry",
-                "Solidity"
-            ],
-            "price": "Custom",
-            "description": "It offers an open-source smart contract registry and an AI-powered ecosystem to help developers research, build, and deploy smart contracts quickly and efficiently",
-            "starred": false
-        },
-        {
-            "slug": "multicall3",
-            "provider": "Multicall3",
-            "actionButtons": [
-                "[Docs](https://www.multicall3.com)"
-            ],
-            "toolType": "Aggregates multiple contract reads and calls into single JSON-RPC requests",
-            "tag": [
-                "Contract Calls",
-                "Aggregation",
-                "RPC"
-            ],
-            "price": "Custom",
-            "description": "It enables the batching of multiple calls to other smart contracts into a single transaction",
-            "starred": false
-        },
-        {
-            "slug": "spheron-network",
-            "provider": "Spheron Network",
-            "actionButtons": [
-                "[Docs](https://www.spheron.network)"
-            ],
-            "toolType": "Infrastructure to deploy, manage, and scale Web3 apps",
-            "tag": [
-                "Web3 Infrastructure",
-                "Deployment",
-                "Scaling"
-            ],
-            "price": "Custom",
-            "description": "It provides various tools and SDKs  to help developers integrate with its decentralized infrastructure, manage deployments, and utilize its compute resources",
+            "planName": null,
+            "planType": "TBD",
+            "description": "Functions as a specialized, pre-configured provider of developer and security tools for the blockchain and Web3 ecosystem",
             "starred": false
         }
     ],
     "columns": {
-        "rpc": [
-            "slug",
-            "provider",
-            "actionButtons",
-            "plan",
-            "nodeType",
-            "chain",
-            "accessPrice",
-            "queryPrice",
-            "verifiedUptime",
-            "verifiedLatency",
-            "verifiedBlocksBehindAvg",
-            "uptimeSla",
-            "bandwidthSla",
-            "blocksBehindSla",
-            "starred",
-            "trial",
-            "availableApis",
-            "limitations",
-            "securityImprovements",
-            "monitoringAndAnalytics",
-            "regions",
-            "address"
-        ],
-        "indexing": [
-            "slug",
-            "provider",
-            "actionButtons",
-            "chain",
-            "address",
-            "technology",
-            "plan",
-            "accessPrice",
-            "queryPrice",
-            "verifiedUptime",
-            "verifiedLatency",
-            "verifiedBlocksBehindAvg",
-            "uptimeSla",
-            "bandwidthSla",
-            "blocksBehindSla",
-            "supportSla",
-            "starred",
-            "trial",
-            "availableApis",
-            "limitations",
-            "securityImprovements",
-            "monitoringAndAnalytics",
-            "regions",
-            "additionalFeatures"
-        ],
         "oracle": [
             "slug",
             "provider",
@@ -4761,6 +3035,8 @@
             "hasDashboard",
             "availableApis",
             "price",
+            "planName",
+            "planType",
             "starred"
         ],
         "wallet": [
@@ -4792,6 +3068,8 @@
             "toolType",
             "tag",
             "price",
+            "planName",
+            "planType",
             "description",
             "starred"
         ]
